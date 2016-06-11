@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=640, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script>
+        var viewport = document.querySelector('meta[name="viewport"]')
+                , wWidth = screen.width
+                , sca = wWidth/640;
+        viewport.content = 'width=640,initial-scale = '+sca+',minimum-scale='+sca+',maximum-scale='+sca+', user-scalable = no';
+    </script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/openJS.js"></script>
+</head>
+<body>
+<nav>
+    <ul class="item">
+        <li class="special open" id="opq">公开问题</li>
+        <li class="my" id="myq">我的问题</li>
+        <li class="doubt" id="qa">提问</li>
+        <li class="setting" id="sz">设置</li>
+    </ul>
+</nav>
+<div class="openQuestion" id="openQuestion">
+    <p class="collect">【顶置】常见问题汇总篇（35条）</p>
+    <div class="ask">
+        <p class="question">问：手机订烟是否支持信用卡？<span class="time">13:53</span>
+        <div class="answer">
+            <p class="anw">答：手机订烟现已支持信用卡支付，需要您预先绑定信用卡。感谢您的提问！</p>
+        </div>
+    </div>
+</div>
+<div class="myQuestion" id="myQuestion">
+    <div class="ask">
+        <p class="question">问：手机订烟是否支持信用卡？ <span class="time">13:53</span></p>
+    </div>
+    <div class="ask">
+        <p class="question">问：手机订烟是否支持信用卡？<span class="time">13:53</span>
+        <div class="answer">
+            <p class="anw">答：手机订烟现已支持信用卡支付，需要您预先绑定信用卡。感谢您的提问！</p>
+        </div>
+    </div>
+</div>
+<div class="quiz" id="quiz">
+    <form name="formt" method="post" action="">
+        <textarea cols="50" rows="20" id="text" class="text" onkeyup="tjzs()" onfocus="if(this.value=='请输入您的问题...')
+          {this.value='';}this.style.color='#787878';"  onblur="if(this.value=='')
+           {this.value='请输入您的问题...';this.style.color='#787878';}this.style.color='#787878';" >请输入您的问题...</textarea>
+        <br/>
+        <div class="open">
+            <input type="radio" name="open" value="公开" checked="checked">公开
+            <input type="radio" name="open" value="不公开">不公开
+        </div>
+        <div class="calculate">
+            <input type="text" id="zs" class="count" value="0" lang="4" onkeypress="document.getElementById('text').value=this.value.length"/>
+            <span class="pp">/300</span>
+        </div>
+        <br/>
+        <div class="btn_btn">
+            <button class="clear" onclick="clearTip()">清空</button>
+            <button type="submit" class="submit" onclick="check()">提交</button>
+        </div>
+    </form>
+</div>
+<div class="setting" id="setting">
+    <p class="number" id="number">专卖证号： <span class="nb">12345567889</span></p>
+    <button id="change" class="exit_change" onclick="window.location.href='ResetPassword.html'" >修改密码</button>
+    <br/>
+    <button id="exit" class="exit_change" onclick="window.location.href='client role.html'">退出登录</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,245 @@
+body{
+    width:100%;
+    margin: auto 0;
+    padding: 0;
+    font-family: 华文细黑;
+}
+.loginRole{
+    margin-left: 36px;
+    margin-top: 38px;
+    color: #04bf60;
+    font-size: 24px;
+    font-family: 华文细黑;
+}
+.logo{
+    margin-top: 116px;
+    margin-left: 226px;
+    width: 190px;
+    height: 211px;
+    margin-bottom: 106px;
+}
+.checkRole a{
+    text-decoration: none;
+}
+.btn{
+    width: 550px;
+    height:60px;
+    margin-bottom:26px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+    background: #daf6e5;
+    color: #04bf60;
+    font-size: 25px;
+    font-family: 华文细黑;
+    margin-left: 40px;
+    border: 1px;
+}
+.returnback a{
+    text-decoration: none;
+}
+.backtext{
+    font-size: 32px;
+    color: #05c463;
+    margin-left: 32px;
+    margin-top: 44px;
+    margin-bottom: 68px;
+}
+.back{
+   float:left;
+}
+.form_nb{
+    margin-left: 45px;
+    font-size: 24px;
+    color: #05c463;
+}
+.nbpw{
+    width: 550px;
+    height: 60px;
+    /*line-height: 60px;*/
+    margin-bottom: 12px;
+    border-radius: 30px;
+    border-cellapse:cellapse;
+    border:2px #e9eeec solid;
+}
+.nb{
+    margin-bottom: 40px;
+}
+.common01{
+    height: 50px;
+    line-height: 12px;
+    float: left;
+    margin-left: 14px;
+}
+.input{
+    width:400px;
+    height: 50px;
+    margin-top: 4px;
+    border: none;
+}
+.initial_pw{
+    font-size: 22px;
+    margin-left:300px;
+    color: #05c463;
+}
+.mlogin{
+    width: 550px;
+    height: 60px;
+    font-size: 26px;
+    color: #d9fae0;
+    border: 2px #00bf65 solid;
+    background: #32cc7d;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+.number1{
+    margin-left: 100px;
+    font-size: 28px;
+    color: #04bf60;
+    font-weight: bold;
+    margin-bottom: 64px;
+}
+.form_rpw{
+    margin-left: 45px;
+    font-size: 24px;
+    color: #05c463;
+}
+.item li{
+    list-style: none;
+    width: 140px;
+    height: 60px;
+    color: #04bf60;
+    float: left;
+    font-size: 26px;
+    border-collapse: collapse;
+    border: 1px solid #04bf60;
+    line-height: 60px;
+    display: block;
+    text-align: center;
+    border-left: none;
+    font-weight: bold;
+    margin-bottom: 54px;
+
+}
+.item .special{
+    border-left: 1px solid #04bf60;
+    background: #03c05f;
+    color: white;
+    font-weight: bold;
+}
+.collect{
+    margin-left: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    clear: both;
+}
+.ask{
+    margin-top: 50px;
+}
+.question{
+    font-size: 26px;
+    font-weight: bold;
+    color: #6d6d6d;
+    margin-left: 32px;
+    margin-bottom: 25px;
+}
+.time{
+    font-size: 18px;
+    color: #999999;
+    margin-right: 52px;
+    position: relative;
+    float: right;
+}
+.answer{
+    margin-left: 20px;
+    width: 600px;
+    color: #939393;
+    font-size: 22px;
+    background: #e5f8ed;
+}
+.anw{
+    margin-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+}
+.ask{
+    clear: both;
+}
+.myQuestion,.quiz,.setting{
+    display: none;
+}
+.quiz .text{
+    width: 540px;
+    height: 382px;
+    border-radius: 10px;
+    background: #e4f9ef;
+    font-size: 26px;
+    color: #787878;
+    margin-left: 50px;
+    border: none;
+    margin-top: 30px;
+}
+.count{
+    border: none;
+    width: 36px;
+    font-size: 18px;
+    text-align: center;
+}
+.calculate{
+    float: right;
+    margin-right: 70px;
+    position: relative;
+}
+.quiz .open{
+    margin-left: 50px;
+    font-size: 30px;
+    color: #787878;
+    margin-right: 52px;
+    float: left;
+}
+.clear{
+    width: 240px;
+    height: 60px;
+    color: #04bf60;
+    font-size: 26px;
+    margin-right: 60px;
+    border: 1px solid #04bf60;
+    background: white;
+    margin-left: 50px;
+    border-radius: 10px;
+    float: left;
+}
+.submit{
+    width: 240px;
+    height: 60px;
+    color: white;
+    font-size: 26px;
+    border:none;
+    background: #03c05f;
+    border-radius: 10px;
+}
+.btn_btn{
+    margin-top: 56px;
+}
+.setting .number{
+    clear: both;
+    margin-left:100px;
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #04bf60;
+    margin-bottom: 210px;
+}
+.exit_change{
+    width: 550px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 26px;
+    margin: 45px;
+    background: #03c05f;
+    color: white;
+}
