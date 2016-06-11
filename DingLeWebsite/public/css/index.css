@@ -1,0 +1,410 @@
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+html{font-size:62.5%;}
+a{
+    text-decoration: none;
+    border: none;
+}
+body{
+    width: 100%;height: 100%;font-size:62.5%;
+}
+header{
+    position: fixed;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    z-index: 1;
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background: #ffffff;
+    letter-spacing: 2px;
+}
+.menu ul{
+    margin-left: 20%;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    color: #232323;
+    margin-left: 2.639%;
+    margin-right: 2.639%;
+    /*line-height: 80px;*/
+}
+.logo{
+    /*line-height: 80px;*/
+}
+.nav_tel{
+    /*line-height: 80px;*/
+    color: #000000;
+    letter-spacing: normal;
+}
+.container{
+    width:100%;
+    margin: auto 0px;
+    padding: 0px;
+}
+.home_txt,.home_img{
+    width: 50%;
+    margin: auto 0px;
+    padding: 0px;
+}
+
+.home,.product_partner,.product_ricebarn,.product_pay,.bank,.introduce,.contact,.work,.machining{
+    width: 100%;
+    height:100%;
+    /*margin-top:50px;*/
+    position: static;
+    left: 0;
+}
+.home{
+    margin-top: 50px;
+}
+.home_text{
+    z-index: 9999;
+    position: absolute;
+    top:20%;
+    left: 6.33%;
+    color: #ffffff;
+}
+.home_title{
+    font-size: 72px;
+    font-family: 方正正粗黑简体;
+    word-spacing: 200px;
+    text-align: center;
+}
+
+.home_spell{
+    font-size: 26px;
+    font-family: 方正正黑简体;
+    line-height:10px;
+    letter-spacing: 9px;
+    text-align: center;
+}
+.home_content{
+    font-size: 20px;
+    line-height: 40px;
+    word-spacing: 300px;
+    font-family: 方正幼线简体;
+    margin: 8%;
+}
+.home_blank{
+    word-spacing: 40px;
+}
+.bg_img{
+    width: 100%;
+    height: 100%;
+    margin: auto 0px;
+    padding: 0px;
+}
+@media (max-width:1200px){
+    header{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .menu ul{
+        margin-left: 10%;
+    }
+    .home_title {
+        font-size: 50px;
+    }
+    .home_spell{
+        font-size: 20px;
+        line-height:8px;
+        letter-spacing: 9px;
+    }
+    .home_content{
+        font-size: 18px;
+        line-height: 24px;
+        word-spacing: 100px;
+    }
+
+}
+/*烟酒伴侣界面*/
+.product_partner{
+    background: url("../img/product_bg_parner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+.parner_img{
+    padding-right: 0px;
+    margin-top: 140px;
+}
+.parner_txt{
+    margin-top: 140px;
+}
+.parner_img_iphone{
+    width:54%;
+    margin-left: 10%;
+}
+.parner_title{
+    margin-top: 8%;
+}
+.parner_logo{
+    width: auto;
+    float: left;
+    margin-right: 15px;
+    margin-left: 29.5%;
+}
+.parner_text_name,.ricebarn_text_name,.pay_text_name{
+    font-size: 56px;
+    letter-spacing: 3px;
+    display: block;
+    line-height: 100px;
+}
+.parner_text_content,.ricebarn_text_content,.pay_text_content{
+    font-size: 34px;
+    letter-spacing: 15px;
+    margin-left: 5%;
+}
+.parner_code{
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.parner_imgcode{
+    width: 90%;
+}
+.btn{
+    background: transparent;
+    margin-top: 2.5%;
+    margin-left: 4%;
+}
+.btn_img{
+    width: 100%;
+}
+
+
+/*米仓理财*/
+.ricebarn_txt{
+    /*margin-left: 3%;*/
+    margin-top: 13%;
+    padding: 0px;
+}
+.ricebarn_title{
+    margin-left: 6%;
+}
+.product_ricebarn{
+    background: #ffffff;
+    background: url("../img/product_bg_ricebarn.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+.ricebarn_logo{
+    width: auto;
+    float: left;
+    margin-right: 15px;
+    margin-left: 32%;
+}
+.ricebarn_text_content{
+    margin-left: 30%;
+    display: block;
+    margin-top: 10px;
+}
+.ricebarn_btn{
+    margin-left: 32%;
+    float:left ;
+    margin-right: 45px;
+}
+.ricebarn_btnimg{
+    margin-top: 25px;
+    width: 100%;
+}
+.ricebarn_img{
+    margin: auto 0;
+    padding: 0px;
+    padding-top: 42px;
+    position: relative;
+}
+.ricebarn_code{
+    width: 20%;
+}
+.ricebarn_iphone{
+    margin-top: 10%;
+    padding: 0px;
+}
+.ricebarn_iphoneimg{
+    width: 56%;
+}
+
+/*和风支付*/
+.product_pay{
+    background: url("../img/product_bg_pay.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+.pay_logo{
+    float: left;
+    margin-right: 15px;
+}
+.pay_iphoneimg{
+    width: 46%;
+    margin-left: 42.5%;
+    margin-top: 18.5%;
+}
+.pay_txt{
+    margin-top: 20%;
+}
+.pay_title{
+    margin-bottom: 50px;
+}
+.pay_text_content{
+    margin-left: 0px;
+}
+
+/*公司介绍*/
+.introduce{
+    background: #fd6e61;
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+.introduce_content{
+    margin-top: 7%;
+    padding: 0px;
+}
+.introduce_content_h{
+    margin-top: 6%;
+    z-index: 9;
+    padding: 0px;
+}
+
+.introduce_content img{
+    width: 100%;
+}
+.introduce_first{
+    margin-left: 11%;
+    width: 100%;
+}
+.introduce_second{
+    width: 100%;
+    margin-left: 2.8%;
+}
+.introduce_third{
+    width: 100%;
+    position: absolute;
+    right: 6%;
+}
+.introduce p{
+    text-align: left;
+}
+.ind_title{
+    font-size: 32px;
+    margin-left: 30%;
+}
+.introduce_width{
+    width: 78%;
+    z-index: 9999;
+    top: 54%;
+    position: absolute;
+    margin-left: 20%;
+}
+.introduce_widthp{
+    width: 80%;
+    z-index: 9999;
+    top: 7%;
+    margin-left: 13%;
+    position: absolute;
+    line-height: 23px;
+}
+.ind_content{
+
+}
+.red{
+    color: red;
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.introduce_widthq{
+    z-index: 99999;
+    width: 80%;
+    z-index: 9999;
+    margin-top: 70%;
+    margin-left: 4%;
+    position: absolute;
+    line-height: 23px;
+}
+/*合作银行*/
+.bank{
+    background: url("../img/bank.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+/*机制*/
+.machining{
+    background: #79afea;
+    color: #000000;
+    font-size: 14px;
+    /*word-spacing: 50px;*/
+    letter-spacing: 3px;
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+/*<!--招兵买马-->*/
+.work_btn{
+    margin-top: 1%;
+}
+.work_first{
+    margin-top: 6%;
+}
+
+
+/*机制*/
+.machining img{
+    width: 90%;
+    margin-top: 12%;
+}
+.machining_first{
+    margin-top: 3%;
+    /*background: url("../img/maring01.png");*/
+}
+.machining_first_img{
+    margin-left: 20%;
+    width: 140%;
+}
+.machining_second{
+    padding: 0px;
+    margin-top: 0.6%;
+}
+.machining_second_img{
+    margin-right: 20%;
+}
+.machining_txt{
+    z-index: 9999;
+    top: 76%;
+    position: absolute;
+    margin-left: 40%;
+}
+.machining_txt2{
+    z-index: 9999;
+    top: 78%;
+    position: absolute;
+    margin-left: 20%;
+}
+.machining_text_title{
+    font-size: 18px;
+}
+/*联系我们*/
+.contact{
+    background: url("../img/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.contact_txt{
+    display: block;
+    margin-left: 136px;
+    margin-top: 20%;
+    line-height: 50px;
+}
+footer{
+    font-size: 18px;
+    margin-left: 24%;
+    margin-top: 8%;
+}

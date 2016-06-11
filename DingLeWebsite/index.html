@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, u
+    ser-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <title>鼎乐科技官网</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="public/css/normalize.css">-->
+    <link rel="stylesheet" href="public/css/common.css">
+    <link rel="stylesheet" href="public/css/font-awesome.css">
+    <link rel="stylesheet" href="public/css/fullPage.css">
+    <link rel="stylesheet" href="public/css/index.css">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="public/js/jquery-ui-1.10.3.min.js"></script>
+    <script src="public/js/jquery.fullPage.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="public/js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <script>
+        $(document).ready(function() {
+            function IsPC()
+            {
+                var userAgentInfo = navigator.userAgent;
+                var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+                var flag = true;
+                for (var v = 0; v < Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+                }
+                return flag;
+            }
+            function sectionScrollFun() {
+                var $et_pb_number_counter = $(".et_pb_number_counter");
+                $.fn.fullpage({
+                    slidesColor: ['', '', '#23a1f5', '#f2f2f2', '', '#1b222a'],
+                    anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11'],
+                    navigation: true,
+                    'afterLoad': function (anchorLink, index) {
+                        console.log("index", index);
+                        /* //console.log("slideIndex",slideIndex);*/
+                        $(".section.active").find(".ecl-animation-bottom").addClass("ecl-animated");
+                        $(".section.active").find(".ecl-animation-right").addClass("ecl-animated");
+                        $(".section.active").find(".ecl-animation-top").addClass("ecl-animated");
+                        $(".section.active").find(".ecl-animation-fadeIn").addClass("ecl-animated");
+                        $(".section.active").find(".ecl-animation-left").addClass("ecl-animated");
+                        if (index == 6) {
+                            if ($et_pb_number_counter.length) {
+                                $et_pb_number_counter.each(function () {
+                                    $(this).data('easyPieChart').update($(this).data('number-value'));
+                                });
+                            }
+                        }
+                    }
+                });
+            }
+            if(IsPC()==true){
+                sectionScrollFun();
+            }
+        });
+    </script>
+</head>
+<body class="">
+<header>
+    <button type="button" class="navbar-toggle collapse visible-xs " data-toggle="collapse" data-target="#global-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class="logo col-sm-3 text-right"><img src="public/img/nav_logo.jpg"></div>
+    <nav class="menu hidden-xs col-sm-7 text-center">
+        <ul>
+            <li class="active"><a href="#home">首 页</a></li>
+            <li><a href="#product_partner">产品与服务</a></li>
+            <li><a href="#bank">合作伙伴</a></li>
+            <li><a href="#machining">招兵买马</a></li>
+            <li><a href="#contact">关于我们</a></li>
+        </ul>
+    </nav>
+    <nav class="nav-xs visible-xs dn col-sm-7 text-center">
+        <ul>
+            <li class="active"><a href="home">首 页</a></li>
+            <li><a href="#">产品与服务</a></li>
+            <li><a href="#bank">合作伙伴</a></li>
+            <li><a href="#machining">招兵买马</a></li>
+            <li><a href="#contact">关于我们</a></li>
+        </ul>
+    </nav>
+    <div class="nav_tel col-sm-2 "><img src="public/img/nav_tel.jpg"><span>400-612-8026</span></div>
+</header>
+<div class="container">
+    <!--首页-->
+    <div class="clearfix section home" id="home">
+        <div class="row">
+            <div class="col-sm-6 home_txt">
+                <img class="bg_img" src="public/img/home_bg1.jpg">
+                <div class="home_text">
+                    <p class="home_title">鼎乐科技</p>
+                    <p class="home_spell">DINGLEKEJI</p>
+                    <p class="home_content"> <span class="home_blank">&nbsp;</span>北京鼎乐科技有限公司（简称“鼎乐科技”），成立于2013年4月，总部位于北京，是国内领先的电子商务解决方案及服务提供商，长期致力于电子商务、移动支付，投资理财等领域的产品研究和技术开发。在电子支付平台、手机客户端软件、行业应用等方面均具有强大的技术和项目管理优势。</p>
+                </div>
+
+            </div>
+            <div class="col-sm-6 home_img"><img class="bg_img" src="public/img/home_bg02.jpg"> </div>
+        </div>
+
+    </div>
+    <!--烟酒伴侣-->
+    <div class="clearfix section product_partner" id="product_partner">
+            <div class="parner_img col-sm-4 text-right"><img class="parner_img_iphone" src="public/img/parner_iphone.png"></div>
+            <div class="parner_txt col-sm-8">
+                <div class="parner_title">
+                    <img class="parner_logo" src="public/img/parner_logo.png">
+                    <span class="parner_text_name">烟酒伴侣</span>
+                    <br>
+                    <span class="parner_text_content">烟酒门店、店铺们的好帮手！</span>
+                </div>
+                <div class="code_button">
+                    <div class="parner_code"><img class="parner_imgcode" src="public/img/parner_code.png"></div>
+                    <div class="btn_download">
+                        <a href="https://appsto.re/cn/Cn5x_.i"><button class="btn"><img class="btn_img" src="public/img/parner_ipdownload.png"></button></a>
+                        <br>
+                        <a href="http://www.pgyer.com/V3Sy"><button class="btn"><img class="btn_img" src="public/img/parner_addownload.png"></button></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!--米仓理财-->
+    <div class="clearfix row section product_ricebarn">
+        <div class="col-sm-8 ricebarn_txt">
+            <div class="ricebarn_title">
+                <img class="ricebarn_logo" src="public/img/ricebarn_logo.png">
+                <span class="ricebarn_text_name">米仓理财</span>
+                <span class="ricebarn_text_content">无限放大你的财富！</span>
+            </div>
+            <div>
+                <div class="ricebarn_btn">
+                    <a href="http://url.cn/27hIxu1"><button class="btn"><img class="ricebarn_btnimg" src="public/img/ricebarn_ipdownload.png"></button></a>
+                    <br>
+                    <a href="https://appsto.re/cn/TFdt5.i"><button class="btn"><img class="ricebarn_btnimg" src="public/img/ricebarn_addownload.png"></button></a>
+                </div>
+                <div class=" ricebarn_img">
+                    <img class="ricebarn_code" src="public/img/ricebarn_code.png">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-4 ricebarn_iphone text-left">
+             <img class="ricebarn_iphoneimg" src="public/img/ricebarn_iphone.png">
+        </div>
+    </div>
+    <!--和风支付-->
+    <div class="clearfix section product_pay">
+        <div class="col-sm-5 pay_img"><img class="pay_iphoneimg" src="public/img/pay_iphone.png"></div>
+        <div class="col-sm-7 pay_txt">
+            <div class="pay_title"><img class="pay_logo" src="public/img/pay_logo.png"><span class="pay_text_name">和风支付</span></div>
+            <span class="pay_text_content">让支付更舒服，更安全！</span>
+        </div>
+    </div>
+
+  <!--公司介绍-->
+    <div class="clearfix section introduce" id="introduce">
+        <div class="col-sm-4 introduce_content text-center">
+            <img class="introduce_first" src="public/img/introduce01.png">
+            <div class="introduce_width">
+                <span  class="center"><p class="ind_title">基本介绍</p></span>
+            <p class="ind_content">
+                北京鼎乐科技有限公司（简称“鼎乐科技”），成立于2013年4月，总部位于北京，
+            是国内领先的电子商务解决方案及服务提供商，长期致力于电子商务、移动支付，
+            投资理财等领域的产品研究和技术开发。在电子支付平台、手机客户端软件、
+            行业应用等方面均具有强大的技术和项目管理优势。
+            </p>
+            </div>
+        </div>
+        <div class="col-sm-4 introduce_content_h text-center">
+            <img class="introduce_second" src="public/img/introduce02.png">
+            <div class="introduce_widthp">
+                <span  class="center"><p class="ind_title business">业务板块</p></span>
+
+            <span>
+                <p class="red">1.电子商务</p>
+                <p>鼎乐科技作为中国烟草客户服务中心，通过与北京烟草局合作，打通北京烟草局与北京各辖区香烟零售门店的便捷服务联系，研发的产品“来根吧”进一步打通香烟零售与终端用户的联系，不仅拓宽销售渠道，更便捷用户订烟需求。</p>
+                <p class="red">2.移动支付</p>
+                <p >鼎乐科技自成立之初，就始终如一的在完善电子商务平台的同时，提供给用户更加安全、可靠的支付方案，保护用户的信息。公司是中国银联移动支付业务战略合作伙伴，研发的产品“和风支付”通过植入更加安全的NFC支付方式（进场支付方案），将先进、安全的支付手段运用到电子商务的场景之中，给用户更加放心、可靠的支付体验。</p>
+                <p class="red">3.投资理财</p>
+                <p>鼎乐科技紧跟时代前沿，坚持“以用户为中心”的研发设计理念，在互联网金融中的大潮中，研发的“米仓理财”是一款专业的银行理财产品销售平台，用户通过“米仓理财”可以更方便的购买银行理财产品，并能享受比银行更高级别的收益和服务。通过产品创新带动了金融创新，开启了理财新篇章。</p>
+            </span>
+            </div>
+
+        </div>
+        <div class="col-sm-4 introduce_content">
+            <img class="introduce_third"  src="public/img/introduce03.png">
+            <div class="introduce_widthq">
+                <span class="center"><p class="ind_title ind_willing">公司愿景</p></span>
+
+            <span>
+                <p>在全球经济一体化的发展新时期，鼎乐科技将以更新姿态、更新面貌、更新思维、更新理念打造企业，发挥企业社会主义市场经济主体作用，始终以“诚信”为企业发展之根本，与时俱进，努力拼博，使企业在竞争中不断完善，综合实力不断增强。随着中国电子商务的快速发展和手机网络应用不断成熟，鼎乐科技将在电子商务、
+                    移动支付、投资理财领域继续开拓创新，为完善移动电子商务价值链、推动支付产业持续发展、开拓金融创新做出不懈努力。</p>
+            </span>
+            </div>
+
+        </div>
+    </div>
+    <!--合作银行-->
+    <div class="clearfix section bank" id="bank"></div>
+    <!--机制-->
+    <div class="clearfix section machining" id="machining">
+        <div class="col-sm-6 machining_first">
+            <img class="machining_first_img" src="public/img/maring01.png">
+            <span class="machining_txt">
+                <p class="machining_text_title">我们的机制</p>
+                <p class="machining_text_content">
+                    ① 管理团队与核心骨干全部来自内部培养<br/>
+                    ② 让企业成为每个人走向巅峰的课堂<br/>
+                    ③ 你可以不优秀，但必须努力
+                </p>
+            </span>
+        </div>
+        <div class="col-sm-6 machining_second"><img class="machining_second_img" src="public/img/maring02.png">
+            <span class="machining_txt2">
+                <p class="machining_text_title">我们的团队</p>
+                <p class="machining_text_content">
+                    这里没有态度严苛的上司,&nbsp;&nbsp;&nbsp;&nbsp;这里没有性格古怪的大叔<br/>
+                    只有一群90后萌娃,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只有经验丰富的师兄<br/>
+                    Come on!
+                </p>
+            </span>
+        </div>
+    </div>
+    <!--招兵买马-->
+    <div class="clearfix section work">
+        <div class="row work_btn work_first">
+            <div class="col-sm-5 text-right"><a href="product.html"><img style="width: 58.33333%" src="public/img/work01.jpg"></a></div>
+            <div class="col-sm-7"><a href="businessManager.html.html"><img style="width: 41.666666%" src="public/img/work04.jpg"></a></div>
+        </div>
+        <div class="row work_btn  work_second">
+            <div class="col-sm-6 text-right" ><a href="java.html"><img style="width: 50%" src="public/img/work02.jpg"></a></div>
+            <div class="col-sm-6" ><a href="operation.html"><img style="width: 50%" src="public/img/work05.jpg"></a></div>
+        </div>
+        <div class="row work_btn work_third">
+            <div class="col-sm-7 text-right"><a href="android.html"><img style="width: 41.666666%" src="public/img/work03.jpg"></a></div>
+            <div class="col-sm-5"><a href="n.%20e-commerce.html"><img style="width: 58.33333%" src="public/img/work06.jpg"></a></div>
+        </div>
+    </div>
+    <!--联系我们-->
+    <div class="clearfix section contact" id="contact">
+        <span class="contact_txt">
+            <p>地址：朝阳区东三环中路39号建外SOHO西区15号楼一层底商1517室<br>
+
+                联系电话：400-612-8026<br>
+
+                招聘专线：010-59495941<br/>
+
+                招聘邮箱：liuliu@158box.com<br/>
+
+                邮编：10000<br/>
+            </p>
+        </span>
+        <footer>
+            <span>Copyright 2014-2015 &nbsp;&nbsp; 鼎乐科技&nbsp;&nbsp;   版权所有&nbsp;&nbsp;    京ICP备14049494号-3</span>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

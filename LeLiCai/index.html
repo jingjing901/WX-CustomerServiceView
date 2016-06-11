@@ -1,0 +1,271 @@
+<html>
+<head>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>理财资讯-首页</title>
+    <link rel="stylesheet" type="text/css" href="public/css/reset.css">
+    <script type="text/javascript" src="public/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/basic.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/pages.css">
+    <link rel="stylesheet" type="text/css" href="public/css/LC.css">
+    <script type="text/javascript" src="/LeLiCai/orderstatic/js/base.js"></script>
+    <script type="text/javascript" src="/LeLiCai/orderstatic/js/main.js"></script>
+    <!--plugin-->
+    <style>
+        *{
+            font-size: 14px;
+        }
+        div.error
+        {
+            color:Red;
+            font-size:13px;
+            margin-left:8%;
+            font-weight: bold;
+            text-align:left;
+            padding-left:18px;
+            /*background:url("/LeLiCai/static/jquery-validation/1.11.0/images/unchecked.gif") left no-repeat;*/
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(
+                function() {
+                    $(".homepage .login").hide();
+                    $(".homepage .login-box").hide();
+                    var valida=$("#inputForm").validate(
+                            {
+                                errorElement : "div",
+                                onfocusout: function(element){
+                                    $(element).valid();
+                                },
+                                rules : {
+                                    mobile : {
+                                        remote : "/LeLiCai/activ/checkMobile"
+                                    }
+                                },
+                                messages : {
+                                    mobile : {
+                                        required:'必填信息',
+                                        remote : "您没有订阅理财咨询！"
+                                    },
+                                    name : {
+                                        required:'必填信息',
+                                        realName : "请输入您的真实姓名"
+                                    }
+                                },
+                                /* submitHandler : function(form) {
+                                 loading('正在提交，请稍等...');
+                                 form.submit();
+                                 }, */
+                                errorContainer : "#messageBox",
+                                errorPlacement : function(error, element) {
+                                    $("#em").text($("#em").text() + "error value is " + error.text());
+                                    element.nextAll('div').remove();
+                                    error.insertAfter(element);
+                                }
+                            });
+
+                    $("#submitHref").click(function(){
+                        if(valida.form()){
+                            $("#inputForm").submit();
+                        }
+
+                    });
+                });
+
+        var downLoad = function () {
+            var u = navigator.userAgent;
+            if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {//安卓手机
+                window.location.href = "http://158box.com/LeLiCai/micang.apk";
+
+            } else if (u.indexOf('iPhone') > -1) {//苹果手机
+                window.location.href = "https://itunes.apple.com/cn/app/mi-cang-li-cai/id961296365?mt=8";
+            } else {//其他按安卓走
+                window.location.href = "http://158box.com/LeLiCai/micang.apk";
+            }
+        }
+    </script>
+</head>
+<body class="homepage">
+<!-------------------------------------- 头部开始 -------------------------------------->
+<div class="header-homepage">
+    <div class="wrap">
+        <div class="activity-time">
+            <img src="/LeLiCai/orderstatic/img/homepage-bg10.png" class="bg1">
+            <div class="c-box">
+                <img src="/LeLiCai/orderstatic/img/homepage-activity-bg1.png" class="c-box-bg1">
+                <img src="/LeLiCai/orderstatic/img/homepage-activity-bg2.png" class="c-box-bg2">
+                <table class="table1">
+                    <tr>
+                        <td>活动时间</td>
+                        <td>01月20日10:00 - 01月27日 15:00</td>
+                    </tr>
+                </table>
+                <table class="table2">
+                    <tr>
+                        <td>剩余份额</td>
+                        <td><span>
+                        	
+								
+								
+									￥3000
+								
+							
+							</span>万元人民币</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="container1">
+            <p class="p1">
+                光大银行专属理财
+            </p>
+
+            <p class="p2">光大银行  月月盈       5万起购       30天</p>
+
+            <p class="p3">基础4.2%+红包添利1.8%=<span>6%</span>高收益+25元额外奖励</p>
+
+            <p class="p4">申购时间：01月20日至01月27日    河北省内支持</p>
+
+            <p class="p5">起息日：01月27日      到期日：02月27日</p>
+
+
+
+
+            <a class="a4">抢购</a>
+
+
+            <a href="/LeLiCai/activ/details" class="a2">活动详情>></a>
+            <img src="/LeLiCai/orderstatic/img/homepage-icon1.png" class="icon1">
+        </div>
+    </div>
+</div>
+<!-------------------------------------- 头部结束 -------------------------------------->
+<!-------------------------------------- 内容开始 -------------------------------------->
+<div class="mainer-homepage">
+    <div class="wrap">
+        <div class="container2">
+            <p class="p1">
+                浦发银行专属理财
+            </p>
+
+            <p class="p2">浦发银行  同享盈       5万起购       35天</p>
+
+            <p class="p3">基础4.5%+红包添利1.5%=<span>6%</span>高收益+25元额外奖励</p>
+
+            <p class="p4">申购时间：01月20日至01月27日    唐山市内支持</p>
+
+            <p class="p5">起息日：01月28日      到期日：02月02日</p>
+
+
+
+
+            <a class="a4">活动已经结束</a>
+
+
+            <a href="/LeLiCai/activ/details" class="a2">活动详情>></a>
+            <img src="/LeLiCai/orderstatic/img/homepage-icon2.png" class="icon2">
+        </div>
+    </div>
+</div>
+<!-------------------------------------- 内容结束 -------------------------------------->
+<!-------------------------------------- 尾部开始 -------------------------------------->
+<div class="footer-homepage">
+    <div class="wrap">
+        <div class="container3">
+            <p class="c3-p1">光大银行活动详询电话</p>
+            <table>
+                <tr>
+                    <td>廊坊分行 </td>
+                    <td>任云霞</td>
+                    <td>18031628986</td>
+                </tr>
+                <tr>
+                    <td>石家庄分行</td>
+                    <td>张晓东</td>
+                    <td>18630128189</td>
+                </tr>
+                <tr>
+                    <td>廊坊燕郊支行</td>
+                    <td>张凤博</td>
+                    <td>18032639111</td>
+                </tr>
+                <tr>
+                    <td>邯郸分行</td>
+                    <td>杨国荣</td>
+                    <td>15503105256</td>
+                </tr>
+                <tr>
+                    <td>唐山分行</td>
+                    <td>李晓婉</td>
+                    <td>15081509158</td>
+                </tr>
+            </table>
+            <p class="c3-p2"><span>浦发银行活动详询电话</span> <br/>
+                唐山  0315-7771199</p>
+            <br/>
+            <div class="c3-box">
+                <img src="/LeLiCai/orderstatic/img/activity-detail-c3bg1.png" class="c3bg1">
+                <img src="/LeLiCai/orderstatic/img/activity-detail-c3bg3.png" class="c3bg3">
+                <img src="/LeLiCai/orderstatic/img/activity-detail-c3bg4.png" class="c3bg4">
+                <img src="/LeLiCai/orderstatic/img/activity-details-icon30.png" class="icon3">
+                <div class="icon4-box" style="top:10px">
+                    <p class="p2" style="color:red;">免费注册送25元红包哦！加小编微信号“15931191192”领取</p>
+                    <a href="accountGuide.html"><img src="/LeLiCai/orderstatic/img/activity-details-icon40.png" class="icon4"></a>
+                </div>
+                <div>
+                    <p class="p3">理财资讯拥有最终解释权 </p>
+                    <p class="p4">0311-86999027</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------- 尾部开始 -------------------------------------->
+<div class="login"></div>
+<div class="login-box">
+    <form action="/LeLiCai/activ/save" id="inputForm" method="post">
+        <input type="hidden" name="activityId" value="23"/>
+        <input type="hidden" id="bank" name="bank" />
+        <table>
+            <tr>
+                <td>用户姓名：</td>
+                <td><input type="text" name="name" class="required realName" value="请输入真实姓名"/></td>
+            </tr>
+            <tr>
+                <td>联系电话：</td>
+                <td><input type="text" name="mobile" class="required mobile" value="请输入您的手机号码"/></td>
+            </tr>
+        </table>
+        <p class="p1">
+            <a class="a1">再看看</a>
+            <!-- <input type="submit" value="提交" class="a2"/> -->
+            <a  id="submitHref" class="a2">提<i class="wh20"></i>交</a>
+        </p>
+        <p class="p2">
+            温馨提示：<br/>
+            1.姓名与联系电话为贴息依据，请认真填写。<br/>
+            2.请确保电话号与留给银行的联系电话一致。
+        </p>
+    </form>
+</div>
+
+
+</body>
+</html>
+<style>
+
+</style>
+<script>
+    $(function () {
+
+    });
+</script>
+<!-- note
+	
+-->
