@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>商户注册</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/store.css">
+    <script type="text/javascript" src="js/store.js"></script>
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+    <span class="text-center f32">商户注册</span>
+</header>
+
+<form id="stroeFrom">
+    <!--商户注册的第一个界面-->
+    <div  id="pageone">
+        <div data-role="fieldcontain">
+            <div class="inputBorder">
+                <span class="span_style">手&nbsp;机&nbsp;号：</span>
+                <input id="lphoneNum" class="inputContent" type="text" placeholder="请输入申请人手机号">
+            </div>
+            <div class="inputBorder inputBor">
+                <span class="span_style">新&nbsp;密&nbsp;码：</span>
+                <input id="inputPassword" class="inputContent" placeholder="请输入登录密码">
+            </div>
+            <div class="inputBorder2">
+                <span class="span_style">验&nbsp;证&nbsp;码：</span>
+                <input id="phoneCode" class="inputContent inputContent2" placeholder="请输入验证码">
+            </div>
+            <input class="getcode" type="button" id="getCode" onclick="sendMessage()" value="获取验证码">
+            <div class="words">收不到验证码请点击：<a class="num" href="tel:010-59000323">010-59000323</a></div>
+        </div>
+        <a href="loginWasSuccessful.html"><button class="btn_next" id="register" type="button" >完成</button></a>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.checkLoginStyle{
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+.btnStyle{
+    width: 343px;
+    height: 60px;
+    margin-left: 20px;
+    border: 1px #ff2f2f solid;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.btnstyleNoBg{
+    background: #ffffff;
+    color: #fe302e;
+}
+.btnstyleYesBg{
+    background: #fe302e;
+    color: #ffffff;
+}
+.fieldcontain2{
+    margin-top: 14px;
+}
+.inputBorder,.inputBorder2{
+    margin-left: 50px;
+    width: 650px;
+    height: 74px;
+    border:1px solid #d0d0d0;
+    border-radius: 10px;
+    color: #575757;
+    line-height: 74px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+.inputBorder2{
+    width: 420px;
+    float: left;
+}
+.span_style,.span_style2{
+    margin-left: 50px;
+    float: left;
+    color: #575757;
+    line-height: 74px;
+    font-size: 24px;
+    letter-spacing:3px;
+}
+.span_style2{
+    /*margin-top: 14px;*/
+}
+.inputContent{
+    width: 260px;
+    height: 58px;
+    border: none;
+    margin-left: 16px;
+    font-size: 20px;
+    line-height: 66px;
+    color: #a0a0a0;
+    letter-spacing: 3px;
+}
+.inputContent2{
+    width: 220px;
+}
+.getcode{
+    width: 200px;
+    height: 64px;
+    background: #ff2f2f;
+    color: #ffffff;
+    font-size: 24px;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.btn_next{
+    clear: both;
+    font-size:24px;
+    border: none;
+    border-radius:20px;
+    letter-spacing: 3px;
+    width: 650px;
+    height: 74px;
+    background-color: #fe302e;
+    color: #ffffff;
+    margin-left:50px ;
+    margin-top: 64px;
+    line-height: 74px;
+}
+.signIn{
+    display: block;
+    margin-right:80px;
+    text-align: right;
+    margin-top: 20px;
+}
+.signIn a{
+    text-decoration: none;
+    color: #3a3a3a;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+#pagetwo{
+    display: none;
+}

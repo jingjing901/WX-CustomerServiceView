@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <script src="../Js/jquery-1.8.3.min.js" type="application/javascript"></script>
+    <title>我的订单</title>
+    <base target="_self">
+    <link rel = "stylesheet" type="text/css" href="../style/common.css" />
+    <link rel = "stylesheet" type="text/css" href="public/style/myOrder.css">
+</head>
+<body>
+<header>
+    <p class="title">我的订单</p>
+    <span class="back_img"><a href="index.html"><img src="../image/back.png"></a></span>
+</header>
+<div class="content">
+    <ul class="titleLi">
+        <li class="active">全部</li>
+        <li>待支付</li>
+        <li>待收货</li>
+        <li>退换</li>
+        <li>已完成</li>
+    </ul>
+    <form>
+        <div class="order">
+            <div class="storDiv">
+                <a class="store" href="">
+                    <span class="storeName">中国烟酒-永安里店</span>
+                    <span><img class="trm" src="../image/shop_next.png"></span>
+                </a>
+                <span class="state">待支付</span>
+            </div>
+            <div class="lineItem">
+                <ul class="goodsLine">
+                    <li><span>[中南海]中南海香烟</span><span class="num">X1</span><span class="moy">￥100</span></li>
+                    <li><span>[中南海]中南海香烟</span><span class="num">X1</span><span class="moy">￥100</span></li>
+                    <li>[中华]软盒包装</li>
+                </ul>
+            </div>
+            <div class="orderMoney">
+                <span class="allMoney">订单总额：75元</span>
+                <input class="pay" type="submit" value="立即支付">
+            </div>
+        </div>
+    </form>
+    <form>
+        <div class="order">
+            <div class="storDiv">
+                <a class="store" href="">
+                    <span class="storeName">中国烟酒-永安里店</span>
+                    <span><img class="trm" src="../image/shop_next.png"></span>
+                </a>
+                <span class="state">已完成</span>
+            </div>
+            <div class="lineItem">
+                <ul class="goodsLine">
+                    <li><span>[中南海]中南海香烟</span><span class="num">X1</span><span class="moy">￥100</span></li>
+                    <li><span>[中南海]中南海香烟</span><span class="num">X1</span><span class="moy">￥100</span></li>
+                    <li>[中华]软盒包装</li>
+                </ul>
+            </div>
+            <div class="orderMoney">
+                <span class="allMoney">订单总额：75元</span>
+                <input class="pay" name="deleatOrder" type="button" value="删除订单">
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="deleatOrder">
+     <div class="deleatTitle">
+         <span>确定删除订单吗？</span>
+     </div>
+    <div class="checkBtn">
+        <button class="btn" id="cancle" type="button">取消</button>
+        <button class="btn" id="confirm" type="button">确定</button>
+    </div>
+</div>
+</body>
+<script src="public/js/myOrder.js"></script>
+</html>

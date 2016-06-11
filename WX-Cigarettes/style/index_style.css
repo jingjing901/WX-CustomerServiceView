@@ -1,0 +1,7 @@
+header{width: 750px;height: 90px;background: #43aef1;display:block;position: fixed;z-index: 1000;line-height: 90px;text-align: center;font-size: 30px;transform: translateZ(0)}
+.header{text-align: center;}
+/*.or{display: inline-block}*/
+.navigation{background: url("../image/navigation.png");height: 30px;}
+.drop_down{background: url("../image/drop-down.png");height: 26px;}
+.address{display: inline-block;}
+.navigation,.drop_down{width: 22px;display: inline-block;background-repeat: no-repeat;margin-left: 6px;}

@@ -1,0 +1,30 @@
+/**
+ * Created by Administrator on 2016/5/25.
+ */
+
+$(document).ready(function(){
+    $("#nameChange").click(function(){
+        $(".content").css("opacity","0.2");
+        $(".changeName").css("display","block");
+    })
+    $("button[name=ensure]").click(function(){
+        $(".content").css("opacity","1");
+        $(".changeName").css("display","none");
+        $(".changeSex").css("display","none");
+        $(".changeBir").css("display","none");
+    })
+    $("button[name=cancel]").click(function(){
+        $(".content").css("opacity","1");
+        $(".changeName").css("display","none");
+        $(".changeSex").css("display","none");
+        $(".changeBir").css("display","none");
+    })
+    $("#sexChange").click(function(){
+        $(".content").css("opacity","0.2");
+        $(".changeSex").css("display","block");
+    })
+    $("#birChange").click(function(){
+        $(".content").css("opacity","0.2");
+        $(".changeBir").css("display","block");
+    })
+})

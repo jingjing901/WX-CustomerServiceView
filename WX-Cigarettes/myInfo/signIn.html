@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>注册</title>
+    <script src="../Js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/signIn.css">
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="index.html"><img src="../image/back.png"></a></span>
+    <span class="text-center f32">注册</span>
+</header>
+<form action="signInOver.html" method="post" onsubmit="return checked()">
+    <!--//跳转到signInOver.html-->
+    <!--注册的第一个界面-->
+    <div  id="pageone">
+        <div data-role="fieldcontain">
+            <div class="inputBorder">
+                <span class="span_style">手机号码：</span>
+                <input id="phoneNum" class="inputContent" type="text" placeholder="请输入手机号">
+            </div>
+            <div class="inputBorder inputBor">
+                <span class="span_style">设置密码：</span>
+                <input id="inputPassword" class="inputContent" placeholder="请输入6-12位字母数字组合密码">
+            </div>
+            <div class="inputBorder inputBor">
+                <span class="span_style">确认密码：</span>
+                <input id="rinputPassword" class="inputContent" placeholder="请输入确认密码">
+            </div>
+            <div class="inputBorder inputBor  inputCode">
+                <span class="span_style">验&nbsp;证&nbsp;&nbsp;码：</span>
+                <input class="inputContent codeWidth" id="code"  type="text" placeholder="请输入验证码">
+            </div>
+            <input type="button" class="codeGet" id="getcode" onclick="sendMessage()"  value="获取验证码"></button>
+        </div>
+        <button class="btn_next" type="submit">下一步</button>
+        <div class="agreement">
+            <input id="agreement" class="radio" checked type="checkbox" name="file">我已经阅读并同意<span class="file"><a class="xieyi" href="#">《用户注册协议》</a></span>
+        </div>
+    </div>
+</form>
+<script src="js/signIn.js"></script>
+</body>
+</html>

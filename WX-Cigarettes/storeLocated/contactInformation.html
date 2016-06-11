@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>联系信息</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/store.css">
+    <link rel="stylesheet" type="text/css" href="style/storeList.css">
+    <script type="text/javascript" src="js/store.js"></script>
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+    <span><span class="text-center f32">联系信息</span><a href="ruledescription.html"><button type="button" class="explainText">说明</button></a></span>
+</header>
+
+<form id="stroeFrom">
+    <div class="storeListContent">
+        <div class="storeList">
+            <span class="storeListText">申请人姓名:</span>
+            <input class="state" placeholder="请输入开店申请人的名字">
+        </div>
+        <div class="storeList">
+            <span class="storeListText">店铺的类型:</span>
+            <select class="state">
+                <option selected="selected">请选择店铺类型</option>
+                <option>普通点</option>
+                <option>精品店</option>
+                <option>旗舰店</option>
+            </select>
+        </div>
+        <div class="storeList">
+            <span class="storeListText">店铺的名称:</span>
+            <input class="state" placeholder="请输入店铺的名称（与线下实体店名称一致）">
+        </div>
+        <div class="storeList">
+            <span class="storeListText">店铺的地址:</span>
+            <span class="state stateWidth">北京</span>
+            <select class="state stateWidth">
+                <option selected="selected">请选择地区</option>
+                <option>海淀区</option>
+                <option>朝阳区</option>
+                <option>东城区</option>
+                <option>西城区</option>
+                <option>崇文区</option>
+                <option>宣武区</option>
+                <option>丰台区</option>
+                <option>石景山区</option>
+                <option>门头沟区</option>
+                <option>房山区</option>
+                <option>通州区</option>
+                <option>顺义区</option>
+                <option>大兴区</option>
+                <option>昌平区</option>
+                <option>平谷区</option>
+                <option>怀柔区</option>
+                <option>延庆区</option>
+                <option>郊县</option>
+            </select>
+        </div>
+        <div class="storeList">
+            <input class="state poCent" placeholder="请填写详细的街道门牌信息（与实体店一致）">
+        </div>
+    </div>
+</form>
+<a href="#" class="btnNewStore"><button type="button" class="newStore">下一步</button></a>
+</body>
+</html>

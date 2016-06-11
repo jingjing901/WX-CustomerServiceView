@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>结算信息</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/store.css">
+    <link rel="stylesheet" type="text/css" href="style/storeList.css">
+    <script type="text/javascript" src="js/store.js"></script>
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+    <span><span class="text-center f32">结算信息</span><a href="ruledescription.html"><button type="button" class="explainText">说明</button></a></span>
+</header>
+
+<form id="stroeFrom">
+    <div class="storeListContent">
+        <div class="storeList">
+            <span class="storeListText">收款账户名称:</span>
+            <input class="state" placeholder="请输入唯一结算收款账户名称">
+            <a class="storeListA" href="#"><button class="next"><img class="storeListImgDown" src="../image/shop_next.png"></button></a>
+        </div>
+        <div class="storeList">
+            <span class="storeListText">开户银行:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <input class="state" placeholder="请输入唯一结算收款账户卡号名称">
+        </div>
+        <div class="storeList">
+            <span class="storeListText">收款账户卡号:</span>
+            <input class="state" placeholder="请输入唯一结算收款账户卡号">
+        </div>
+        <div class="storeList">
+            <span class="storeListText">收款账户电话:</span>
+            <input class="state" placeholder="请输入收款账户银行预留电话">
+        </div>
+    </div>
+</form>
+<a href="#" class="btnNewStore"><button type="button" class="newStore">下一步</button></a>
+</body>
+</html>

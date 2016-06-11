@@ -1,0 +1,54 @@
+div{
+    height: 90px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 24px;
+    border-bottom: 1px solid #a9a9a9;
+    color: #575757;
+}
+span{
+    margin-left: 50px;
+}
+/*
+    显示是否审核通过
+*/
+.fristDiv{
+    height: 154px;border-bottom:0px;
+}
+.fristDivWord1{
+    border-bottom:0px;
+    height: 26px;
+    margin-left: 255px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    font-size: 26px;
+    color: #ff2f2f;
+}
+.fristDivWord2,.fristDivWord3{
+    border-bottom:0px;
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 26px;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #2e2e2e;
+}
+.fristDivWord3{
+    height: 20px;
+    margin-left: 230px;
+    margin-top: 18px;
+}
+/*
+联系信息
+*/
+.lianxi{
+    height: 530px;border-bottom:0px;
+}
+.lianxiDiv1{
+    border-bottom:0px;
+    line-height: 70px;
+    height: 70px;
+    background: #fee9e6;
+}
+.lianxiDiv2{
+
+}

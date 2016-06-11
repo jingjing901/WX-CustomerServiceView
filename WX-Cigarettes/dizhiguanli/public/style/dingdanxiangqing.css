@@ -1,0 +1,224 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.titleInfo{
+    width: 710px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 20px;
+    font-size: 28px;
+    color: #434343;
+    border-bottom: 2px solid #e0e0e0;
+    letter-spacing: 2px;
+}
+.titleInfoText{
+    margin-left: 10px;
+}
+.lineItem{
+    width: 710px;
+    height: 152px;
+    margin-left: 20px;
+    font-size: 28px;
+    color: #434343;
+    border-bottom: 2px solid #e0e0e0;
+    letter-spacing: 2px;
+}
+.lineItem li{
+    float: left;
+    list-style: none;
+}
+.dingdan{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.dingdanLi{
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50px;
+    background: #868686;
+    color: #ffffff;
+    font-size: 22px;
+    float: left;
+}
+.activeBg{
+    background: #ff2f2f;
+}
+
+.line{
+    display: block;
+    height: 1px;
+    width: 120px;
+    border-bottom: 3px dotted #868686;
+    margin-left: 15px;
+    margin-top: 16px;
+    float: left;
+    margin-right: 15px;
+}
+.activeBorder{
+    border-bottom: 3px dotted #ff2f2f;
+}
+ul{
+    margin: auto 0;
+    padding: 0px;
+}
+.dingdanText{
+    display: block;
+    margin-top: 26px;
+}
+.dingdanText li{
+    font-size: 24px;
+    color: #868686;
+    margin-left: 10px;
+    margin-right: 82px;
+    line-height: 76px;
+}
+.dingdanText .speciol{
+    margin-right: 0px;
+}
+.goodsItem{
+    width: 710px;
+    margin-left: 20px;
+    line-height: 65px;
+    font-size: 24px;
+    color: #868686;
+    letter-spacing: 2px;
+}
+.goodsItem li{
+    list-style: none;
+    height: 65px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.goodsName{
+    margin-left: 45px;
+}
+.goodsNum{
+    position: absolute;
+    left: 435px;
+}
+.goodsPrice{
+    position: absolute;
+    left: 600px;
+}
+.dingdanxiangqing{
+    width: 710px;
+    height: 580px;
+    font-size: 24px;
+    color: #868686;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.dingdanxiangqing p{
+    margin-left: 64px;
+}
+hr{
+    color: #e0e0e0;
+    margin-left: 20px;
+}
+.detial .goodsItem{
+    border-bottom: 1px solid #e0e0e0;
+}
+.detial .goodsItem li{
+    height: 58px;
+    border-bottom: none;
+}
+.detial .goodsItem .redText{
+    color: #ff2f2f;
+}
+.btn{
+    width: 200px;
+    height: 70px;
+    margin-left: 24px;
+    border: 1px solid #ff2f2f;
+    color: #ff2f2f;
+    font-size: 30px;
+    line-height: 70px;
+    background: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    float: right;
+    margin-right: 32px;
+}
+.tankuang1,.tankuang2{
+    width: 550px;
+    height: 300px;
+    box-shadow: 3px  3px 5px #ffebea;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.tankuang1 .titleName,.tankuang2 .titleName{
+    width: 550px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    color: #723636;
+    letter-spacing: 3px;
+    background: #ffebea;
+}
+.contentText{
+    width: 550px;
+    margin-top: 0px;
+    height: 220px;
+    background: #fffef4;
+}
+.contentText span{
+    display: block;
+    color: #723636;
+    font-size: 18px;
+    line-height: 14px;
+    padding-top: 14px;
+    margin-left: 302px;
+    letter-spacing: 3px;
+}
+#yuanyin{
+    width: 470px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px #bdbcbc solid;
+    margin-left: 40px;
+    background: transparent;
+    margin-top: 20px;
+    line-height:80px;
+    font-size: 20px;
+    color: #723636;
+}
+.endBtn{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.tangkuangBtn{
+    width: 200px;
+    height: 60px;
+    background: #ff2f2f;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 60px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.contentText .deleatOrder{
+    margin-left: 50px;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.tankuang1,.tankuang2{
+    display: none;
+}

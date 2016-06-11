@@ -1,0 +1,146 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.content{
+    width: 750px;
+}
+.time{
+    width: 710px;
+    height: 120px;
+    border: 1px solid #ff4b4b;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 22px;
+    color: #646464;
+    letter-spacing: 2px;
+}
+.time p{
+    margin-left: 60px;
+}
+.songhuo{
+    position: absolute;
+    left: 420px;
+}
+.xiangyanTitle{
+    width: 750px;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+}
+.xiangyanText{
+    font-size: 28px;
+    color: #ff2f2f;
+    font-family: 智能字体;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.item{
+    width: 210px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+.lineItem{
+    width: 210px;
+    height: 160px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+.xiangyanName{
+    font-size: 18px;
+    color: #5f5f5f;
+    letter-spacing: 2px;
+}
+.xiangyanPrice{
+    color: #ff321d;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 57px;
+}
+.imageTra{
+    transform: rotate(180deg);
+}
+.addBtn{
+    background: transparent;
+    border: none;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+footer{
+    width: 750px;
+    height: 118px;
+    background: #ffeeee;
+    line-height: 118px;
+    position: fixed;
+    bottom: 0px;
+}
+.shopCar{
+    border: none;
+    background: transparent;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.carNum{
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    background: #ff2f2f;
+    z-index: 99;
+    position: absolute;
+    bottom: 66px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 智能字体;
+    color: #ffffff;
+    line-height: 38px;
+}
+.shoppcar,.mianyunfei{
+    float: left;
+}
+.mianyunfei{
+    margin-top: 20px;
+}
+
+.mianyunfei .moneyprice,.mianyunfei .money{
+    font-size: 26px;
+    color: #777777;
+    margin-left: 28px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.mianyunfei .moneyprice{
+    color: #ff2f2f;
+    font-size: 28px;
+}
+.gotopay{
+    width: 260px;
+    line-height: 118px;
+    border: none;
+    height: 118px;
+    text-align: center;
+    font-size: 34px;
+    color: #ffffff;
+    background: #ff2f2f;
+    letter-spacing: 3px;
+    position: absolute;
+    right: 0px;
+}
+.gapfooter{
+    clear: both;
+    width: 750px;
+    height: 140px;
+}

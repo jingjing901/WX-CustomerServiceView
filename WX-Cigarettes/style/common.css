@@ -1,0 +1,68 @@
+html,body{width:750px;margin:auto 0px; padding: 0px;font-family: "微软雅黑", Helvetica, sans-serif;overflow-x:hidden;}
+header{
+    width: 750px;
+    background: #ff2f2f;
+    color: #ffffff;
+    height: 88px;
+    line-height: 88px;
+    margin: auto 0;
+    padding: 0;
+    /*text-align: center;*/
+}
+.back_img{
+    /*float: left;*/
+    margin-left: 10px;
+    line-height: 88px;
+}
+
+.f32{
+    font-size: 32px;
+    margin-left: 240px;
+}
+.body{
+    background-size: 100%,100%;
+    background: url("../image/bg.jpg");
+}
+.loginPhoto{
+    position: absolute;
+    top: 327px;
+    left: 315px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+}
+.bgImg p{
+    width: 750px;
+    font-size: 60px;
+    font-family: 方正启笛繁体;
+    line-height: 80px;
+    text-align: center;
+}
+.laigenba{
+    margin-top: 550px;
+}
+.footer{
+    margin-top: 200px;
+}
+.indexLogin,.indexsgin{
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    float: left;
+}
+.indexsgin{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.indexLogin{
+    border:1px solid #ff2323;
+    color: #ff3e3e;
+}

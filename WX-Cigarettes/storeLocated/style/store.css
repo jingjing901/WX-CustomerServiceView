@@ -1,0 +1,326 @@
+html,body{width:750px;margin:auto 0px; padding: 0px;font-family: "微软雅黑", Helvetica, sans-serif;overflow-x:hidden;}
+header{
+    width: 750px;
+    background: #ff2f2f;
+    color: #ffffff;
+    height: 88px;
+    line-height: 88px;
+    margin: auto 0;
+    padding: 0;
+    /*text-align: center;*/
+}
+.back_img{
+    /*float: left;*/
+    margin-left: 10px;
+    line-height: 88px;
+}
+.f32{
+    font-size: 32px;
+    margin-left: 270px;
+}
+.text-center {
+    text-align: center;
+}
+.explainText{
+    letter-spacing: 1px;
+    margin-left: 220px;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    width: 90px;
+    font-size: 26px;
+    line-height: 70px;
+}
+#pageone{
+    width: 750px;
+}
+.content{
+    margin-top: 0px;
+    padding: 0;
+}
+.inputBorder,.inputBorder2{
+    margin-top: 72px;
+    margin-left: 50px;
+    width: 650px;
+    height: 74px;
+    border:1px solid #d0d0d0;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    color: #575757;
+    line-height: 74px;
+}
+.inputBorder2{
+    margin-top: 22px;
+    width: 490px;
+    float: left;
+}
+.inputBor{
+    margin-top: 22px;
+}
+.span_style{
+    margin-left: 50px;
+    float: left;
+    color: #575757;
+    font-size: 24px;
+    letter-spacing:3px;
+}
+.inputContent{
+    width: 400px;
+    height: 58px;
+    border: none;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 8px;
+    color: #a0a0a0;
+}
+.inputContent2{
+    width: 280px;
+}
+a{
+    text-decoration: none;
+}
+.phone{
+    color: #a0a0a0;
+    letter-spacing: 2px;
+    margin-top:20px;
+    margin-left: 380px;
+}
+.getcode{
+    width: 150px;
+    height: 60px;
+    background: #ff2f2f;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 25px;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.words{
+    letter-spacing: 5px;
+    margin-top: 22px;
+    margin-left: 289px;
+    font-size: 18px;
+    color:#a0a0a0;
+}
+.btn_next,.qukaidan{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    clear: both;
+    font-size:24px;
+    border: none;
+    border-radius:30px;
+    letter-spacing: 3px;
+    width: 650px;
+    height: 74px;
+    background-color: #fe302e;
+    color: #ffffff;
+    margin-left:50px ;
+    margin-top: 58px;
+}
+.btn_zhuce{
+    clear: both;
+    font-size:24px;
+    border: none;
+    border-radius:30px;
+    letter-spacing: 3px;
+    width: 650px;
+    height: 74px;
+    background-color: #ff2f2f;
+    color: #ffffff;
+    margin-left:50px ;
+    margin-top: 35px;
+}
+.bg{
+    background: darkgray;
+}
+.frist{
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-left: 35px;
+    margin-top: 54px;
+    margin-right: 35px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #363636;
+}
+.dfnt{
+    margin-top: 50px;
+}
+.last{
+    margin-left: 340px;
+    margin-top: 117px;
+    font-size: 22px;
+}
+.num{
+    color: #ff2f2f;
+}
+/*
+注册成功页面
+*/
+.successful{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    color:#ff2f2f;
+    letter-spacing: 6px;
+    font-size: 26px;
+    margin-top: 168px;
+    margin-left: 36%;
+}
+.successful_btn{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    clear: both;
+    font-size:24px;
+    border: none;
+    border-radius:30px;
+    letter-spacing: 3px;
+    width: 650px;
+    height: 74px;
+    background-color: #fe302e;
+    color: #ffffff;
+    margin-left:50px ;
+    margin-top: 122px;
+}
+.successfulkaidian{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    color:#868686;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+/*
+开店
+*/
+.openShop_div,.openShop_word_div{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #575757;
+    margin-top: 42px;
+}
+.openShop_div div{
+    border-bottom: 1px solid #a9a9a9;
+    height: 90px;
+}
+.openShop_div .openShop_div_span,.zhifufanshi,.payment{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+.payment{
+    letter-spacing: 3px;
+    margin-left: 230px;
+    color: #ff2f2f;
+}
+.zhifufanshi{
+    margin-left: 22px;
+}
+.openShop_div img{
+    margin-left: 50px;
+    margin-top: 32px;
+}
+.openShop_div .openShop_div_lastImg{
+    margin-right: 40px;
+    margin-left: 580px;
+}
+.openShop_div_btn{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    clear: both;
+    font-size:24px;
+    border: none;
+    border-radius:30px;
+    letter-spacing: 3px;
+    width: 650px;
+    height: 74px;
+    background-color: #fe302e;
+    color: #ffffff;
+    margin-left:50px ;
+    margin-top: 100px;
+}
+.openShop_word_div{
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+/*
+提交申请
+*/
+.submitApplication{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    color:#ff2f2f;
+    letter-spacing: 6px;
+    font-size: 26px;
+    margin-top: 168px;
+    margin-left: 36%;
+}
+.word1,.word2{
+    margin-top: 50px;
+    margin-left: 25%;
+    letter-spacing: 4px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    color:#868686;
+    font-size: 20px;
+}
+.word2{
+    margin-top: 12px;
+    margin-left: 32%;
+}
+.submitApplication_btn{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    clear: both;
+    font-size:24px;
+    border: none;
+    border-radius:30px;
+    letter-spacing: 3px;
+    width: 650px;
+    height: 74px;
+    background-color: #fe302e;
+    color: #ffffff;
+    margin-left:50px ;
+    margin-top: 40px;
+}
+.fstoreList{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #575757;
+    margin-top: 46px;
+}
+.fstoreList div{
+    height:90px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.fstoreList div .span_style1{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 32px;
+}
+.span_style2,.span_stylefail{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #a0a0a0;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 280px;
+}
+.span_stylefail{
+    color: #ff2f2f;
+}
+.span_style3_back_img{
+
+}
+.quzhifu{
+    border-radius:15px;
+    font-size: 20px;
+    height: 40px;
+    width: 90px;
+    margin-top: 28px;
+    margin-left: 640px;
+    margin-right: 32px;
+}
+.qukaidan{
+    margin-top: 100px;
+}

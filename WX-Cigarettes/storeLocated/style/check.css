@@ -1,0 +1,111 @@
+/*
+    显示是否审核通过
+*/
+.fristDiv{
+    height: 154px;border-bottom:0px;
+}
+.stateDiv{
+    height: 110px;
+    font-size: 26px;
+    color: #ff2f2f;
+    line-height: 110px;
+    text-align: center;
+}
+.stateDiv1{
+    margin-top: 30px;
+    font-size: 26px;
+    color: #ff2f2f;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.fristDivWord2{
+    font-size: 20px;
+    color: #2e2e2e;
+    margin-top: 26px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.fristDivWord3{
+    font-size: 20px;
+    color: #2e2e2e;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*联系信息*/
+.contact{
+    background: #ffe7e7;
+    height: 70px;
+    line-height: 70px;
+}
+.contactTitle{
+    color: #575757;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.storeList{
+    height:88px;
+    line-height: 88px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.storeListText{
+    font-size: 24px;
+    color: #575757;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 2px;
+}
+.content{
+    font-size: 24px;
+    color: #b5b5b5;
+    letter-spacing: 2px;
+}
+.NoBorder{
+    border-bottom: none;
+}
+.distance{
+    margin-left: 244px;
+}
+
+
+.photo{
+    width: 180px;
+    height: 120px;
+    margin-top: 24px;
+    border: 1px solid #bbbbbb;
+    float: right;
+    margin-right: 40px;
+}
+.pass,.nopass{
+    float: right;
+    margin-right: 40px;
+    font-size: 20px;
+    color: #575757;
+}
+.passY,.passN{
+    font-size: 20px;
+    color: #575757;
+    margin-left: 20px;
+    float: left;
+    letter-spacing: 2px;
+    margin-top: 69px;
+
+}
+.nopass,.passN{
+    color: #ff2f2f;
+}
+.storeList input{
+    width: 360px;
+    height: 60px;
+    line-height: 60px;
+    color: #575757;
+    border: none;
+}
+.passimg{
+    font-size: 20px;
+    color: #575757;
+}

@@ -1,0 +1,87 @@
+body{
+    width: 750px;
+}
+
+.storeListContent{
+    margin-top: 42px;
+}
+.storeList{
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.storeListText{
+    /*width: 200px;*/
+    margin-left: 50px;
+    font-size: 24px;
+    color: #575757;
+    letter-spacing: 2px;
+}
+.storeList input,.storeList select{
+    height: 80px;
+    border: none;
+}
+.state{
+    height: 90px;
+    width: 450px;
+    line-height: 90px;
+    font-size: 20px;
+    margin-left: 30px;
+    color: #a0a0a0;
+    letter-spacing: 2px;
+}
+.stateWidth{
+    width: 200px;
+}
+.storeListA,.btnNewStore{
+   text-decoration: none;
+}
+.storeListA .next{
+    height: 90px;
+    border: none;
+    background:transparent;
+    float: right;
+    position: absolute;
+    right: 32px;
+}
+.storeListImg{
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg); 	/* IE 9 */
+    -moz-transform:rotate(-90deg); 	/* Firefox */
+    -webkit-transform:rotate(-90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-90deg);
+}
+.storeListImgDown{
+
+}
+.textRed{
+    color:#ff2f2f;
+}
+.Nopayment{
+    float: right;
+    position: absolute;
+    right: 32px;
+    margin-top: 25px;
+    width: 90px;
+    height: 40px;
+    background: #ff2f2f;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.newStore{
+    width: 650px;
+    height: 80px;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #ffffff;
+    background: #ff2f2f;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 3px;
+}
+.poCent{
+    margin-left: 220px;
+}

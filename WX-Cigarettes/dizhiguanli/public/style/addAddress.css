@@ -1,0 +1,81 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.content{
+    margin-top: 40px;
+}
+.divInfo{
+    height: 90px;
+    line-height: 80px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.leftTitle{
+    font-size: 30px;
+    color: #4d4d4d;
+    margin-left: 45px;
+}
+.inputName{
+    width: 500px;
+    position: absolute;
+    left: 220px;
+    border: none;
+    height:70px;
+    letter-spacing: 2px;
+    color: #919191;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.sex{
+    font-size: 24px;
+    color: #171717;
+    margin-left: 130px;
+}.sex input{
+    width: 18px;
+    height: 18px;
+    background: #ff2f2f;
+    margin-left: 80px;
+    margin-right: 10px;
+    margin-top: 20px;
+ }
+ .sex span{
+     line-height:100px;
+     letter-spacing: 3px;
+ }
+.stateWidth{
+    font-size: 24px;
+    color: #919191;
+    position: absolute;
+    left: 220px;
+}
+.state{
+    width: 180px;
+    height: 60px;
+    color: #919191;
+    font-size: 24px;
+    border: none;
+    position: absolute;
+    left: 300px;
+    margin-top: 10px;
+}
+.save{
+    width: 690px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 30px;
+    background: #ff2f2f;
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 122px;
+    border: none;
+    border-radius: 10px;
+}

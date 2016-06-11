@@ -1,0 +1,108 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.selectAddress_main_div{
+    border-bottom: 1px solid #e2e2e2;
+    letter-spacing: 2px;
+    font-size: 26px;
+    color: #484848;
+    height: 93px;
+}
+.selectAddress_main_div_span{
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.selectAddress_last_div{
+    clear: both;
+    height: 140px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.checkAddress{
+    float: left;
+    width: 30px;
+    height: 80px;
+    padding-top: 50px;
+    margin-left: 46px;
+    margin-right: 20px;
+}
+.checkimg{
+    border: none;
+    background: transparent;
+}
+.addressInfo{
+    width: 500px;
+    margin-top: 16px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    float: left;
+}
+.addressInfo .top{
+    color: #6f6f6f;
+    font-size: 26px;
+}
+.addressInfo .bottom{
+    color: #979696;
+    font-size: 23px;
+}
+.edit{
+    float: right;
+    margin-right: 40px;
+}
+.bianji{
+    margin-right: 6px;
+    margin-top: 68px;
+}
+.bianjiBtn{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #b5b5b5;
+    letter-spacing: 3px;
+}
+.sex{
+    margin-left: 20px;
+    margin-right: 47px;
+}
+.addNewAddress{
+   border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    width: 750px;
+    height: 110px;
+    margin-top: 10px;
+}
+.addNew{
+    background: transparent;
+    border: none;
+    width: 750px;
+    height: 100px;
+    text-decoration: none;
+}
+.addNewImg{
+    margin-left: 45px;
+    margin-top: 40px;
+    float: left;
+}
+.addNew .text{
+    font-size: 26px;
+    color: #484848;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    line-height: 110px;
+}
+.addNew .next{
+    float: right;
+    margin-right: 45px;
+    margin-top: 45px;
+}

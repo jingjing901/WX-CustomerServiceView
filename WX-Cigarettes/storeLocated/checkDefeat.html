@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>审核失败</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/check.css">
+    <script type="text/javascript" src="js/store.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/certificate.css">
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+    <span class="f32">普通A店-朝阳区</span>
+</header>
+
+<!--
+    显示信息 是否通过审核
+-->
+<div class="stateDiv">
+    <div class="stateText">审核失败，请修改未通过信息并重新提交......</div>
+</div>
+
+<!--联系信息-->
+<div class="contact">
+    <div class="contactTitle"><span>联系信息</span></div>
+</div>
+<div class="storeList">
+    <span class="storeListText">申请人姓名:</span>
+    <span class="content">张山</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">店铺的姓名:</span>
+    <span class="content">旗舰店</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">店铺的名称:</span>
+    <input class="content" value="小张杂货铺"/>
+    <span class="nopass">未通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">店铺的地址:</span>
+    <input class="content" value="北京 北京市朝阳区建外SOHO" />
+    <span class="nopass">未通过</span>
+</div>
+<div class="storeList NoBorder">
+    <input class="content distance" value="西区15号楼1534室小张杂货铺" />
+</div>
+<!--商户信息-->
+<div class="contact">
+    <div class="contactTitle"><span>商户信息</span></div>
+</div>
+<div class="storeList">
+    <span class="storeListText">商户类型:</span>
+    <span class="content">个体户</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">经&nbsp;营&nbsp;者&nbsp;:</span>
+    <span class="content">张山</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">身份证号:</span>
+    <span class="content">123456789012345678</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">联系电话:</span>
+    <span class="content">13577885556</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">营业执照:</span>
+    <span class="content">DW123456789</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList NoBorder">
+    <span class="storeListText">烟草专卖许可证:</span>
+    <span class="content">0987654321AX</span>
+    <span class="pass">已通过</span>
+</div>
+<!--结算信息-->
+<div class="contact">
+    <div class="contactTitle"><span>结算信息</span></div>
+</div>
+<div class="storeList">
+    <span class="storeListText">收款账户名称:</span>
+    <span class="content">张山</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">开户银行:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span class="content">浦发银行（北京分行）</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList">
+    <span class="storeListText">收款账户卡号:</span>
+    <span class="content">345678923456789908</span>
+    <span class="pass">已通过</span>
+</div>
+<div class="storeList NoBorder">
+    <span class="storeListText">收款账户电话:</span>
+    <span class="content">132013201323</span>
+    <span class="pass">已通过</span>
+</div>
+<!--证件信息-->
+<div class="contact">
+    <div class="contactTitle"><span>证件信息</span></div>
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>经营者身份证正面照:</span>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPassl">
+        <img src="">
+    </div>
+    <div class="passN">
+        <span>未通过</span>
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>经营者身份证反面照:</span>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPassl">
+        <img src="">
+    </div>
+    <div class="passY">
+        <span >已通过</span>
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/+.jpg"> </button>
+    </div>
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>店铺营业执照:</span><br/>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPassl">
+        <img src="">
+        <span  class="require">由于格式不正确</span><br/>
+        <span class="require">图片太大</span>
+    </div>
+    <div class="passN">
+        <span>未通过</span>
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>店铺烟草专卖许可证:</span><br/>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPassl">
+        <img src="">
+    </div>
+    <div class="passN">
+        <span>未通过</span>
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>申请人手持身份证正面</span>
+        <span >在店铺门口照片:</span><br/>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPassl">
+        <img src="">
+    </div>
+    <div class="passN">
+        <span>未通过</span>
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+    <button class="ok" type="submit">提交</button>
+</div><div class="certificate"></div>
+</body>
+</html>

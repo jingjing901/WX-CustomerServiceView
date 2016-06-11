@@ -1,0 +1,33 @@
+footer{
+    height: 100px;
+    width: 750px;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #cfcfcf;
+    background: #ffffff;
+    opacity: 1;
+    /*line-height: 100px;*/
+}
+.bottomItem{
+    margin-top: 18px;
+    margin-left: 55px;
+    margin-right: 55px;
+    font-size: 18px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #ababab;
+}
+.bottomImg{
+    margin-left:4px;
+}
+.text{
+    /*margin-top: 14px;*/
+    position: absolute;
+    bottom: 4px;
+    letter-spacing: 3px;
+}
+.gapfooter{
+    height: 140px;
+}

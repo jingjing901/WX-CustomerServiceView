@@ -1,0 +1,38 @@
+.content{
+    width: 750px;
+    height: 940px;
+    background: gray;
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+}
+
+.photochecked{
+    width: 350px;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 300px;
+    margin-left: 200px;
+}
+.checked{
+    width: 350px;
+    height: 350px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+
+}
+.ensure{
+    width: 372px;
+    height: 100px;
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 4px;
+    background: #ff2f2f;
+    opacity: 0.6;
+}

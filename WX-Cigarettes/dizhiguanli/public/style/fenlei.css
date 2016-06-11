@@ -1,0 +1,75 @@
+header{
+    position: fixed;
+}
+.title{
+    width: 500px;
+    height:66px;
+    margin-left: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.titleRight{
+    background: transparent;
+    border: none;
+    z-index: 9999;
+    position: absolute;
+    left: 640px;
+    color: #ffffff;
+    width: 90px;
+    height: 45px;
+    letter-spacing: 3px;
+    font-size: 26px;
+    top:24px;
+}
+ul{
+    margin: auto 0;
+    padding: 0px;
+}
+.leftNav{
+    width: 280px;
+    position: absolute;
+    position: fixed;
+    top: 88px;
+    border-top: 1px solid #ffebea;
+    margin-top: 2px;
+}
+.leftNav li{
+    width: 280px;
+    height: 126px;
+    line-height: 126px;
+    text-align: center;
+    border-bottom: 2px solid #fdcccb;
+    font-size: 34px;
+    color: #393939;
+    letter-spacing: 3px;
+    list-style: none;
+}
+.leftNav .active{
+    color: #ff2f2f;
+}
+.zhonglei{
+    width: 470px;
+    margin-left: 280px;
+}
+.zhonglei li{
+    width: 470px;
+    height: 84px;
+    line-height: 84px;
+    text-align: center;
+    border-left: 2px solid #fdcccb;
+    border-bottom: 1px solid #fdcccb;
+    font-size: 28px;
+    color: #7a7a7a;
+    letter-spacing: 3px;
+    list-style: none;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>证件信息</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/certificate.css">
+    <script type="text/javascript" src="js/store.js"></script>
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+    <span><span class="text-center f32">证件信息</span><a href="ruledescription.html"><button type="button" class="explainText">说明</button></a></span>
+</header>
+
+<!--
+    显示信息 是否通过审核
+-->
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>经营者身份证正面照:</span>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPass">
+        <img name="photoPass" src="">
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>经营者身份证反面照:</span>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPass">
+        <img name="photoPass"  src="">
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>店铺营业执照:</span><br/>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPass">
+        <img name="photoPass"  src="">
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+</div>
+<div class="certificate">
+    <div class="certificateText storeListText">
+        <span>店铺烟草专卖许可证:</span>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPass">
+        <img name="photoPass"  src="">
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+</div>
+<div class="certificate NoBorder">
+    <div class="certificateText storeListText">
+        <span>申请人手持身份证正面</span>
+        <span >在店铺门口照片:</span><br/>
+        <span class="require">请选择小于2M文件进行上传</span>
+    </div>
+    <div class="photoPass">
+        <img name="photoPass"  src="">
+    </div>
+    <div class="open">
+        <button class="imgpass" name="addPhoto"><img src="../image/shapAdd.png"> </button>
+    </div>
+</div>
+<button class="ok" type="submit" id="over">完成</button>
+<div class="certificate"></div>
+</body>
+</html>

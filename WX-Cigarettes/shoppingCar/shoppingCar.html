@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>购物车</title>
+    <script src="../Js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/common.css">
+    <link rel="stylesheet" type="text/css" href="public/style/shoppingCar.css">
+    <link rel="stylesheet" type="text/css" href="../style/footer.css">
+</head>
+<body>
+        <header>
+            <p class="title">购物车</p>
+            <span class="back_img"><a href="index.html"><img src="../image/back.png"></a></span>
+            <button type="button" class="titleRight" type="button">删除</button>
+        </header>
+        <form>
+            <ul>
+                <div class="shopStore">
+                        <div class="shopCheck">
+                            <button type="button" name="shopCheck" class="btnCheck">
+                                <img src="../image/shop_check.png">
+                            </button>
+                        </div>
+                        <div class="shopName">
+                            <span>田木七刀-朝阳店</span>
+                        </div>
+                        <div class="next"><a href="#"><img src="../image/shop_next.png"></a></div>
+                </div>
+                <li class="good">
+                    <div class="goodCheck">
+                        <button type="button"  name="shopCheck" class="btnCheck">
+                            <img src="../image/shop_check.png">
+                        </button>
+                    </div>
+                    <div class="goodA">
+                        <div class="logoImg"><img src="publicshoppingCar.css/image/"></div>
+                        <div class="goodContent">
+                            <span>红星二锅头500ML/听</span>
+                            <p class="price">￥27.00</p>
+                        </div>
+                        <div class="count">
+                            <table>
+                                <tr>
+                                    <td><button type="button">-</button></td>
+                                    <td class="price">2</td>
+                                    <td><button type="button">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+                <li class="good">
+                    <div class="goodCheck">
+                        <button type="button" class="btnCheck">
+                            <img name="shopCheck" src="../image/shop_check.png">
+                        </button>
+                    </div>
+                    <div class="goodA">
+                        <div class="logoImg"><img src="publicshoppingCar.css/image/"></div>
+                        <div class="goodContent">
+                            <span>红星二锅头500ML/听</span>
+                            <p class="price">￥27.00</p>
+                        </div>
+                        <div class="count">
+                            <table>
+                                <tr>
+                                    <td><button type="button">-</button></td>
+                                    <td class="price">2</td>
+                                    <td><button type="button">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+                <div class="tip">
+                    <span class="textyunfei">运费<span>5</span>元，再买<span>30</span>元免运费</span>
+                    <a href="#" class="goto">
+                        <span class="coudan">去凑单</span>
+                        <img src="public/image/shop_next.png">
+                    </a>
+                </div>
+                <div class="pay">
+                    <span class="heji">合计：</span><span class="money">￥54.00</span><span class="yunfei">（不含运费）</span>
+                    <button type="button" class="jiesuan">去结算</button>
+                </div>
+            </ul>
+       </form>
+       <form>
+            <ul>
+                <div class="shopStore">
+                        <div class="shopCheck">
+                            <button type="button" class="btnCheck">
+                                <img name="shopCheck" src="../image/shop_nocheck.png">
+                            </button>
+                        </div>
+                        <div class="shopName">
+                            <span>田木七刀-朝阳店</span>
+                        </div>
+                        <div class="next"><a href="#"><img src="../image/shop_next.png"></a></div>
+                </div>
+                <li class="good">
+                    <div class="goodCheck">
+                        <button type="button" class="btnCheck">
+                            <img name="shopCheck" src="../image/shop_nocheck.png">
+                        </button>
+                    </div>
+                    <div class="goodA">
+                        <div class="logoImg"><img src="publicshoppingCar.css/image/"></div>
+                        <div class="goodContent">
+                            <span>红星二锅头500ML/听</span>
+                            <p class="price">￥27.00</p>
+                        </div>
+                        <div class="count">
+                            <table>
+                                <tr>
+                                    <td><button type="button">-</button></td>
+                                    <td class="price">2</td>
+                                    <td><button type="button">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+                <li class="good">
+                    <div class="goodCheck">
+                        <button type="button" class="btnCheck">
+                            <img name="shopCheck" src="../image/shop_nocheck.png">
+                        </button>
+                    </div>
+                    <div class="goodA">
+                        <div class="logoImg"><img src="publicshoppingCar.css/image/"></div>
+                        <div class="goodContent">
+                            <span>红星二锅头500ML/听</span>
+                            <p class="price">￥27.00</p>
+                        </div>
+                        <div class="count">
+                            <table>
+                                <tr>
+                                    <td><button type="button">-</button></td>
+                                    <td class="price">2</td>
+                                    <td><button type="button">+</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+
+                <div class="pay">
+                    <span class="heji">合计：</span><span class="money">￥54.00</span><span class="yunfei">（不含运费）</span>
+                    <button type="button" class="nojiesuan">去结算</button>
+                </div>
+            </ul>
+        </form>
+        <ul class="shixiao" disabled="disabled">
+            <div class="shopStore">
+                <div class="shopCheck">
+                    <button type="button" class="btnCheck">
+                        <img name="shopCheck" src="public/image/clear.png">
+                    </button>
+                </div>
+                <div class="shopName">
+                    <span>田木七刀-朝阳店</span>
+                </div>
+                <div class="next"><a href="#"><img src="../image/shop_next.png"></a></div>
+            </div>
+            <li class="good">
+                <div class="goodCheck">
+                    <button type="button" class="btnCheck">
+                        <img name="shopCheck" src="public/image/clear.png">
+                    </button>
+                </div>
+                <div class="goodA">
+                    <div class="logoImg"><img src="publicshoppingCar.css/image/"></div>
+                    <div class="goodContent">
+                        <span>红星二锅头500ML/听</span>
+                        <p class="price">￥27.00</p>
+                    </div>
+                    <div class="count">
+                        <table>
+                            <tr>
+                                <td><button type="button">-</button></td>
+                                <td class="price">2</td>
+                                <td><button type="button">+</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </li>
+            <li class="good">
+                <div class="goodCheck">
+                    <button type="button" class="btnCheck">
+                        <img name="shopCheck" src="public/image/clear.png">
+                    </button>
+                </div>
+                <div class="goodA">
+                    <div class="logoImg"><img src="publicshoppingCar.css/image/"></div>
+                    <div class="goodContent">
+                        <span>红星二锅头500ML/听</span>
+                        <p class="price">￥27.00</p>
+                    </div>
+                    <div class="count">
+                        <table>
+                            <tr>
+                                <td><button type="button">-</button></td>
+                                <td class="price">2</td>
+                                <td><button type="button">+</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </li>
+
+            <div class="clear">
+            <button type="button" class="nobaby">清空失效宝贝</button>
+        </div>
+        </ul>
+        <script src="public/js/shoppingCar.js"></script>
+        <div class="gapfooter"></div>
+        <footer>
+            <div class="bottomItem">
+                <a class="lianjie" href="index.html">
+                    <img class="bottomImg" src="../image/homeN.png">
+                    <p class="text">首页</p>
+                </a>
+            </div>
+            <div class="bottomItem">
+                <a class="lianjie" href="index.html">
+                    <img class="bottomImg" src="../image/classifyN.png">
+                    <p class="text">分类</p>
+                </a>
+            </div>
+            <div class="bottomItem">
+                <a class="lianjie" href="index.html">
+                    <img class="bottomImg" src="../image/orderN.png">
+                    <p class="text">订单</p>
+                </a>
+            </div>
+            <div class="bottomItem">
+                <a class="lianjie" href="index.html">
+                    <img class="bottomImg" src="../image/shoppingN.png">
+                    <p class="text">购物车</p>
+                </a>
+            </div>
+            <div class="bottomItem">
+                <a class="lianjie" href="index.html">
+                    <img class="bottomImg" src="../image/myC.png">
+                    <p class="text">我的</p>
+                </a>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,200 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.titleRight{
+    background: transparent;
+    border: none;
+    z-index: 9999;
+    position: absolute;
+    right: 32px;
+    color: #ffffff;
+    width: 90px;
+    height: 45px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 22px;
+    top:24px;
+}
+.shopStore{
+    width: 750px;
+    height: 70px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.shopCheck{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.shopName{
+    font-size: 24px;
+    margin-top: 10px;
+    color: #404040;
+    float: left;
+}
+.next{
+    float: right;
+    margin-right: 32px;
+    margin-top: 14px;
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg); 	/* IE 9 */
+    -moz-transform:rotate(-90deg); 	/* Firefox */
+    -webkit-transform:rotate(-90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-90deg);
+}
+.good{
+    list-style: none;
+    display: block;
+    height: 168px;
+    margin-top: 28px;
+}
+.goodA{
+    width: 620px;
+    float: right;
+    margin-right: 32px;
+    height: 168px;
+    border-bottom: 1px solid #cfcfcf;
+}
+ul{
+    padding: 0px;
+}
+.btnCheck{
+    background: transparent;
+    border: none;
+}
+.logoImg{
+    border-radius: 20px;
+}
+.logoImg img{
+    width: 150px;
+    height: 150px;
+    border: 1px #c8c8c8 solid;
+    border-radius: 20px;
+    margin-right: 33px;
+    float: left;
+}
+.goodCheck{
+    float: left;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-right: 20px;
+    padding-bottom: 28px;
+}
+.goodContent{
+    float: left;
+    color: #666666;
+    font-size: 22px;
+    padding-top: 22px;
+    letter-spacing: 1px;
+}
+.goodContent p{
+    margin-top: 50px;
+    line-height: 14px;
+}
+.count{
+    position: absolute;
+    left: 480px;
+    padding-top: 90px;
+}
+.price{
+    color: #ff2f2f;
+    font-size: 25px;
+}
+table tr td{
+    border: 1px solid #666666;
+    width: 68px;
+    height: 48px;
+    text-align: center;
+}
+table tr button{
+    width: 68px;
+    height: 48px;
+    background: transparent;
+    border: none;
+    font-size: 36px;
+    color: #5c5c5c;
+}
+
+.pay{
+    border: none;
+    background: #f1f1f1;
+    color: #666666;
+    width: 750px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.heji{
+    margin-left: 78px;
+}
+.money{
+    color: #ff2f2f;
+}
+.yunfei{
+    font-size: 20px;
+}
+.jiesuan,.nojiesuan{
+    float: right;
+    width: 200px;
+    height: 70px;
+    border: none;
+    background: #fe302e;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.nojiesuan{
+    background: #cdcdcd;
+}
+.tip{
+    width: 750px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 22px;
+    color: #666666;
+    letter-spacing: 3px;
+}
+.textyunfei{
+    margin-left: 78px
+}
+.goto{
+    float: right;
+    margin-right: 32px;
+    text-decoration: none;
+    color: #666666;
+}
+.coudan{
+    margin-right: 46px;
+}
+.goto img{
+   line-height: 20px;
+}
+.shixiao{
+    opacity: 0.6;
+}
+.nobaby{
+    width: 250px;
+    height: 80px;
+    margin-left: 250px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 28px;
+    color: #fe302e;
+    border: 1px solid #fe302e;
+    background: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>支付费用</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/store.css">
+    <script type="text/javascript">
+        $(function(){
+            $("#checkPay").click(function(){
+                    $("#pay").attr("src","../image/shop_check.png");
+                    $("#wechat").attr("src","../image/shop_nocheck.png");
+            });
+            $("#checkWechat").click(function(){
+                $("#pay").attr("src","../image/shop_nocheck.png");
+                $("#wechat").attr("src","../image/shop_check.png");
+            });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+    <span class="text-center f32">支付费用</span>
+</header>
+
+<div class="openShop_div">
+    <div><span class="openShop_div_span">收费金额：</span><span class="payment">￥2000.00</span></div>
+    <div><span class="openShop_div_span">选择支付方式：</span></div>
+    <div id="checkPay"><img src="../image/pay.png"><span class="zhifufanshi">支付宝支付：</span><img id="pay" class="openShop_div_lastImg" src="../image/shop_check.png"></div>
+    <div id="checkWechat"><img src="../image/wechat.png"><span class="zhifufanshi">微信支付：</span><img id="wechat" class="openShop_div_lastImg" src="../image/shop_nocheck.png"></div>
+</div>
+<a href="../index.html"><button class="openShop_div_btn" id="register" type="button" >立即支付</button></a>
+<div class="openShop_word_div">
+    没有支付宝和微信？没关系!可以线下付款,也可以致电<br>
+    公司客服人员进行银行转账。<br>
+    <div style="margin-top: 60px;">客服电话：<a style="color: #ff2f2f;" href="tel:010-59000323">010-59000323</a></div>
+</div>
+</body>
+</html>

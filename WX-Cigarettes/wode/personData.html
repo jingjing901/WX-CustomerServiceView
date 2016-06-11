@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <base target="_self">
+    <title>个人资料</title>
+    <script src="../Js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/common.css">
+    <link rel="stylesheet" type="text/css" href="public/css/personData.css">
+</head>
+<body>
+<header>
+        <span class="back_img"><a href="javascript:history.go(-1)"><img src="../image/back.png"></a></span>
+        <span class="text-center f32">个人资料</span>
+</header>
+<div class="content">
+        <div class="lineItem">
+            <div class="textName" >
+                <span>头像:</span>
+            </div>
+            <button class="photoChange" id="photoChange">
+                <div class="personPhotodiv">
+                    <img class="personPhoto" src="public/image/logo.png">
+                </div>
+                 <div class="nextTo">
+                     <img class="nextToChange" src="public/image/next.jpg">
+                 </div>
+            </button>
+        </div>
+
+    <div class="lineItem">
+        <div class="textName" >
+            <span>昵称:</span>
+        </div>
+        <button class="photoChange" id="nameChange">
+            <div class="nameChange">
+               <span class="nameText">戒不掉的印</span>
+            </div>
+            <div class="nextTo">
+                <img class="nextToChange" src="public/image/next.jpg">
+            </div>
+        </button>
+    </div>
+    <div class="lineItem">
+        <div class="textName" >
+            <span>性别:</span>
+        </div>
+        <button class="photoChange" id="sexChange">
+            <div class="nameChange">
+                <span class="nameText">男</span>
+            </div>
+            <div class="nextTo">
+                <img class="nextToChange" src="public/image/next.jpg">
+            </div>
+        </button>
+    </div>
+    <div class="lineItem">
+        <div class="textName" >
+            <span>出生日期:</span>
+        </div>
+        <button class="photoChange" id="birChange">
+            <div class="nameChange">
+                <span class="nameText">1990年11月27日</span>
+            </div>
+            <div class="nextTo">
+                <img class="nextToChange" src="public/image/next.jpg">
+            </div>
+        </button>
+    </div>
+</div>
+
+<!--修改头像-->
+<div class="changeName">
+    <div class="changeTitle">
+        <span>修改昵称</span>
+    </div>
+    <div class="changeContent">
+       <input class="changeText" id="nameValue" placeholder="请输入要修改的昵称">
+    </div>
+    <div class="changeContent">
+        <button class="ensure" name="ensure">确定</button>
+        <button class="ensure" name="cancel">取消</button>
+    </div>
+</div>
+
+<!--修改性别-->
+<div class="changeSex">
+    <div class="changeTitle">
+        <span>修改性别</span>
+    </div>
+    <div class="changeContent">
+        <select class="changeTextSex" id="sexValue">
+            <option selected="selected">请选择性别</option>
+            <option>男</option>
+            <option>女</option>
+        </select>
+    </div>
+    <div class="changeContent">
+        <button class="ensure" name="ensure">确定</button>
+        <button class="ensure" name="cancel">取消</button>
+    </div>
+</div>
+
+<!--修改出生日期-->
+<div class="changeBir">
+    <div class="changeTitle">
+        <span>修改出生日期</span>
+    </div>
+    <div class="changeContent">
+        <input class="changeText" id="birValue" placeholder="例如：1990年11月27日">
+    </div>
+    <div class="changeContent">
+        <button class="ensure" name="ensure">确定</button>
+        <button class="ensure" name="cancel">取消</button>
+    </div>
+</div>
+<script src="public/JS/personData.js" type="text/javascript"></script>
+</body>
+</html>

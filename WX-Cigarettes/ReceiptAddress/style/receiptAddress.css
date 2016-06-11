@@ -1,0 +1,260 @@
+html,body{width:750px;margin:auto 0px; padding: 0px;font-family: "微软雅黑", Helvetica, sans-serif;overflow-x:hidden;}
+header{
+    width: 750px;
+    background: #fe302e;
+    color: #ffffff;
+    height: 88px;
+    line-height: 88px;
+    margin: auto 0;
+    padding: 0;
+    /*text-align: center;*/
+}
+.back_img{
+    /*float: left;*/
+    margin-left: 16px;
+    line-height: 88px;
+}
+.f32{
+    font-size: 30px;
+    margin-left: 240px;
+}
+.searchInput{
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: #a5a5a5;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+.searchText{
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    width: 90px;
+    font-size: 28px;
+    line-height: 86px;
+}
+/*
+定位地址
+*/
+.map{
+    height: 410px;
+}
+.map_div{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    height: 100px;
+    border-bottom: 1px solid #cfcfcf;
+    box-shadow:5px 5px 10px #cfcfcf;
+}
+
+.map_div_img{
+    margin-top: 40px;
+    margin-left: 37px;
+}
+.map_div_img1{
+    margin-top: 50px;
+    margin-left: 37px;
+}
+.map_div_span,.map_div_span_next{
+    letter-spacing: 2px;
+    position: absolute;
+    font-size: 24px;
+    color: #ff2f2f;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 37px;
+}
+.map_div_span_next{
+    font-size: 20px;
+    color: #868686;
+    margin-top: 68px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.map_div_span_next1{
+    margin-top: 80px;
+}
+/*
+搜索地址
+*/
+.searchAddress_div{
+    margin-top: 68px;
+    margin-left: 30px;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #6b6b6b;
+    border-bottom: 1px solid #e2e2e2;
+}
+.searchAddress_div_span,.searchAddress_div_span_last{
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-left: 24px;
+}
+.searchAddress_div_span_last{
+    float: right;
+    margin-right: 50px;
+}
+.searchAddress_div_buttom{
+    margin-top: 18px;
+    margin-bottom: 24px;
+    margin-left: 55px;
+    font-size: 20px;
+    color: #636363;
+}
+/*
+选择收货地址
+*/
+.searchAddressIput_div{
+    width: 700px;
+    height: 70px;
+    border: 1px solid #ffcfcf;
+    margin-left: 25px;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+.searchAddressIput_img{
+    float: left;
+    margin-top: 23px;
+    margin-left: 16px;
+}
+.searchAddressInput{
+    border-radius: 10px;
+    position: absolute;
+    float: right;
+    width: 632px;
+    height: 65px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #a5a5a5;
+    text-align: left;
+    border: none;
+    margin-left: 16px;
+}
+.selectAddress_main_div{
+    border-bottom: 1px solid #e2e2e2;
+    letter-spacing: 2px;
+    font-size: 26px;
+    color: #484848;
+    height: 93px;
+}
+.selectAddress_main_div_span{
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.selectAddress_chose_div{
+    border-bottom: 1px solid #e2e2e2;
+    letter-spacing: 2px;
+    height:80px;
+    font-size: 28px;
+    color: #6f6f6f;
+}
+.selectAddress_chose_div_img{
+    margin-left: 46px;
+    margin-top: 22px;
+}
+.selectAddress_chose_div_lastimg{
+    float: right;
+    margin-top: 27px;
+    margin-right: 30px;
+    margin-bottom: 27px;
+}
+.selectAddress_chose_div_span{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 20px;
+    margin-bottom: 28px;
+}
+.selectAddress_nearby_div{
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 26px;
+    color: #6f6f6f;
+    height:82px;
+}
+.selectAddress_nearby_img{
+    margin-left: 46px;
+    margin-top: 24px;
+}
+.selectAddress_nearby_span{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+}
+.selectAddress_last_div{
+    clear: both;
+    height: 140px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.checkAddress{
+    float: left;
+    width: 30px;
+    height: 80px;
+    padding-top: 66px;
+    margin-left: 46px;
+    margin-right: 20px;
+}
+.addressInfo{
+    width: 500px;
+    margin-top: 33px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    float: left;
+}
+.addressInfo .top{
+    color: #6f6f6f;
+    font-size: 26px;
+}
+.addressInfo .bottom{
+    color: #979696;
+    font-size: 23px;
+}
+.edit{
+    float: right;
+    margin-right: 40px;
+}
+.bianji{
+    margin-right: 6px;
+    margin-top: 88px;
+}
+.bianjiBtn{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #b5b5b5;
+    letter-spacing: 3px;
+}
+.checkimg{
+    border: none;
+    background: transparent;
+}
+
+.dizhi{
+    width: 750px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    color: #898989;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.lishi{
+    margin-left: 88px;
+}
+.colorSet{
+    color: #6b6b6b;
+    font-size: 24px;
+    margin-top:34px;
+    margin-left: 37px;
+}
+.map_div1{
+    width: 750px;
+    height: 150px;
+    line-height: 60px;
+    border-bottom: 1px solid #cfcfcf;
+}

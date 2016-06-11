@@ -1,0 +1,109 @@
+.content{
+    width: 750px;
+    margin-top: 47px;
+}
+
+.lineItem{
+    list-style: none;
+    width: 750px;
+    height: 110px;
+    line-height: 110px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.textName{
+    float: left;
+    margin-left: 45px;
+    font-size: 24px;
+    color: #575757;
+}
+.personPhotodiv{
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.personPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: greenyellow;
+}
+.nextTo{
+    float: right;
+    margin-top: 10px;
+}
+.photoChange{
+    float: right;
+    position: absolute;
+    right: 36px;
+    line-height: 100px;
+    margin-right: 30px;
+    background: transparent;
+    border: none;
+}
+.nameChange{
+    float: left;
+    margin-right: 36px;
+    width: 300px;
+    height: 100px;
+    text-align: right;
+}
+.nameText{
+    font-size: 24px;
+    color: #acacac;
+    letter-spacing: 2px;
+}
+
+
+
+/*修改昵称*/
+.changeName,.changeSex,.changeBir{
+    width: 650px;
+    margin-left: 50px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    display: none;
+}
+/*.changeBir{*/
+    /*display: block;*/
+/*}*/
+.changeTitle{
+    height: 80px;
+    line-height: 80px;
+    background:#ffeaec;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 26px;
+    color: #6c3339;
+}
+.changeContent{
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background:#fffdf4;
+}
+.changeText,.changeTextSex{
+    width: 400px;
+    height: 60px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 26px;
+    color: #6c3339;
+}
+.changeTextSex{
+    width: 200px;
+}
+.ensure{
+    width: 120px;
+    height: 60px;
+    margin-left:40px;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+    background: #ffeaec;
+    color:#6c3339;
+    letter-spacing: 3px;
+}

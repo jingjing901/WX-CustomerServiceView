@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=750, user-scalable=no,initial-scale=1.0, maximum-scale=1.0">
+    <script src="../Js/adaptive.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="pragram" content="no-cache">
+    <script src="../Js/jquery-1.8.3.min.js" type="application/javascript"></script>
+    <title>已完成</title>
+    <base target="_self">
+    <link rel = "stylesheet" type="text/css" href="../style/common.css" />
+    <link rel = "stylesheet" type="text/css" href="public/style/dingdanxiangqing.css">
+</head>
+<body>
+<header>
+    <p class="title">已完成</p>
+    <span class="back_img"><a href="index.html"><img src="../image/back.png"></a></span>
+</header>
+    <div class="content">
+         <div class="titleInfo">
+             <span class="titleInfoText">物流信息</span>
+         </div>
+        <div class="lineItem">
+            <ul class="dingdan">
+                <li><span class="dingdanLi activeBg">1</span><span class="line activeBorder"></span></li>
+                <li><span class="dingdanLi">2</span><span class="line"></span></li>
+                <li><span class="dingdanLi">3</span><span class="line"></span></li>
+                <li><span class="dingdanLi">4</span></li>
+            </ul>
+            <ul class="dingdanText">
+                <li>提交订单</li>
+                <li>待支付</li>
+                <li>待收货</li>
+                <li class="speciol">交易完成</li>
+            </ul>
+        </div>
+        <div class="titleInfo">
+            <span class="titleInfoText">商品信息</span>
+        </div>
+        <ul class="goodsItem">
+            <li><span class="goodsName">[中南海]中南海香烟</span><span class="goodsNum">X1</span><span class="goodsPrice">￥100</span></li>
+            <li><span class="goodsName">[中南海]中南海香烟</span><span class="goodsNum">X1</span><span class="goodsPrice">￥100</span></li>
+            <li><span class="goodsName">[中南海]中南海香烟</span><span class="goodsNum">X1</span><span class="goodsPrice">￥100</span></li>
+        </ul>
+        <div class="titleInfo">
+            <span class="titleInfoText">订单详情</span>
+        </div>
+        <div class="dingdanxiangqing">
+            <p>订单编号：2016022215555555</p>
+            <p>订单时间：2015-09-16&nbsp; &nbsp;  09:35:23</p>
+            <p>交易商家：中国烟酒-永安里店</p>
+            <hr/>
+            <p>收货姓名：王天宇</p>
+            <p>收货电话：155310098283</p>
+            <p>收货地址：北京市朝阳区建外SOHO16号楼1611</p>
+            <p>商家电话：15531009022</p>
+            <hr/>
+            <p>支付方式：支付宝支付</p>
+            <p>上门自提：上门自提</p>
+        </div>
+        <div class="titleInfo">
+            <span class="titleInfoText">费用清单</span>
+        </div>
+        <div class="detial">
+            <ul class="goodsItem">
+                <li><span class="goodsName">商品总额</span><span class="goodsPrice">￥100.00</span></li>
+                <li><span class="goodsName">配送金额</span><span class="goodsPrice">￥0.00</span></li>
+                <li><span class="goodsName">抵用金额</span><span class="goodsPrice redText">￥0.00</span></li>
+            </ul>
+        </div>
+        <button type="button" class="btn" id="deleatOrder">删除订单</button>
+        <button type="button" class="btn" id="tuihuanhuo">退换货</button>
+    </div>
+
+
+ <!--退换货弹框-->
+<div class="tankuang1">
+    <div class="titleName">
+           <span>请在此处输入退换货的原因:</span>
+    </div>
+    <div class="contentText">
+        <form>
+            <span>（字数在50字以内）</span>
+            <input type="text" id="yuanyin" >
+           <div class="endBtn">
+               <button type="button" class="tangkuangBtn">取消</button>
+               <button type="submit" class="tangkuangBtn">提交</button>
+           </div>
+        </form>
+    </div>
+</div>
+
+<!--删除订单弹框-->
+<div class="tankuang2">
+    <div class="titleName">
+        <span>提示</span>
+    </div>
+    <div class="contentText">
+        <form>
+            <span class="deleatOrder">是否要删除订单信息？</span>
+            <div class="endBtn">
+                <button type="button" class="tangkuangBtn">取消</button>
+                <button type="submit" class="tangkuangBtn">提交</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+<script src="public/js/dinganxiangqing.js"></script>
+</html>

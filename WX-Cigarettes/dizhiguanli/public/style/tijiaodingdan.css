@@ -1,0 +1,151 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.address{
+    width: 710px;
+    margin-left: 20px;
+    height: 196px;
+    border-bottom: 2px dotted #ffebea;
+}
+.checkAddress{
+    display: block;
+    padding-top: 25px;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 26px;
+    color: #4d4d4d;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+}
+.checkAddress img{
+    float: right;
+    margin-right:15px;
+}
+.addressInfo{
+    margin-left: 50px;
+}
+.addressInfo p{
+    line-height: 0px;
+}
+.addressInfo .top{
+    font-size: 25px;
+    color: #6f6f6f;
+    margin-top: 32px;
+    letter-spacing: 3px;
+}
+.addressInfo .bottom{
+    font-size: 23px;
+    display: block;
+    color: #979696;
+    letter-spacing: 3px;
+    padding-top: 8px;
+}
+.sex{
+    margin-left: 20px;
+    margin-right: 47px;
+}
+ul{
+    margin: auto 0;
+    padding: 0px;
+}
+.payType,.peisongType{
+    width: 710px;
+    margin-left: 10px;
+    height: 185px;
+    border-bottom: 2px dotted #ffebea;
+}
+.peisongType{
+    height: 230px;
+}
+.daijinquan{
+    width: 710px;
+    margin-left: 10px;
+    height: auto;
+    border-bottom: 2px dotted #ffebea;
+}
+.address .checkAddress{
+    padding-top: 40px;
+}
+.payCheck{
+    margin-top: 20px;
+    margin-left: 30px;
+    list-style: none;
+    padding-bottom: 10px;
+    clear: both;
+}
+.payImg{
+    float: left;
+}
+.payCheck .text{
+    display: block;
+    font-size: 23px;
+    color: #979696;
+    letter-spacing: 3px;
+    margin-left:13px;
+    margin-top: 6px;
+    float: left;
+}
+.checkImg{
+    float: right;
+    display: block;
+    margin-right: 35px;
+    background: transparent;
+    border: none;
+    margin-top: 6px;
+    font-size: 23px;
+    color: #979696;
+    letter-spacing: 3px;
+}
+.nunber{
+    float: right;
+    display: block;
+    position: absolute;
+    left: 400px;
+    border: none;
+    margin-top: 6px;
+    font-size: 23px;
+    color: #979696;
+    letter-spacing: 3px;
+}
+.redColor{
+    color: #ff2f2f;
+}
+footer{
+    width: 750px;
+    height: 120px;
+    line-height: 120px;
+    position: fixed;
+    background: #ffefed;
+    bottom: 0px;
+}
+.textMoney{
+    font-size: 32px;
+    color: #484848;
+    margin-left: 35px;
+    letter-spacing: 3px;
+}
+.moneyNum{
+    font-size: 32px;
+    color: #ff2f2f;
+    letter-spacing: 3px;
+}
+.moneyBtn{
+    width: 260px;
+    height: 120px;
+    border: none;
+    background: #fe302e;
+    color: #ffffff;
+    font-size: 34px;
+    letter-spacing: 3px;
+    float: right;
+}

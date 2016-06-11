@@ -1,0 +1,195 @@
+.title{
+    width: 750px;
+    text-align: center;
+    font-size: 32px;
+    margin: auto 0;
+    padding: 0px;
+}
+.back_img{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.titleRight{
+    background: transparent;
+    border: none;
+    z-index: 9999;
+    position: absolute;
+    right: 32px;
+    color: #ffffff;
+    width: 90px;
+    height: 45px;
+    letter-spacing: 3px;
+    font-size: 22px;
+    top:24px;
+}
+.storeFenLei{
+    width: 710px;
+    height: 95px;
+    margin-left: 20px;
+}
+.checkDistant{
+    margin-left: 30px;
+}
+.storeFenLei .btn{
+    width: 345px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #ff0012;
+    font-size: 24px;
+    color: #ff0012;
+    background: none;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    letter-spacing: 3px;
+}
+.btn1{
+    width: 260px;
+    height: 50px;
+    font-size: 24px;
+    color: #ff0012;
+    border: none;
+}
+/*.btn1 option{*/
+    /*margin-left: 30px;*/
+    /*text-align: center;*/
+/*}*/
+.storeItem{
+    width: 710px;
+    height: 195px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+.storeLogo{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    float: left;
+    margin-right: 22px;
+    margin-top: 20px;
+}
+.storeContent{
+    float: left;
+    margin-top: 40px;
+}
+.storeLeiXing{
+    display: block;
+    float: left;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ff2f2f;
+    color: #ff2f2f;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 13px;
+    letter-spacing: 3px;
+}
+.storeName{
+    color: #484848;
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+.workTime{
+    font-size: 24px;
+    color: #828181;
+    letter-spacing: 3px;
+    margin-top: 18px;
+}
+.tip{
+    font-size: 20px;
+    color: #828181;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+.dingWei{
+    float: right;
+    /*position: absolute;*/
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.dist{
+    float: right;
+}
+.distance{
+    font-size: 30px;
+    color: #979797;
+    margin-left: 5px;
+}
+.guang{
+    width: 160px;
+    height: 60px;
+    border: none;
+    background: #ff2f2f;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.storeFuJin{
+    position: absolute;
+    top: 166px;
+    right: 28px;
+    width: 344px;
+    border-left: 1px solid #ff2f2f;
+    border-right: 1px solid #ff2f2f;
+    display: none;
+}
+.fujindis{
+    margin: auto 0;
+    padding: 0px;
+}
+.fujindis li{
+    width: 344px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ff2f2f;
+    font-size: 24px;
+    color: #6c6c6c;
+    text-align: center;
+    letter-spacing: 3px;
+    list-style: none;
+}
+.titleSearch{
+    width: 710px;
+    height: 70px;
+    border: 1px solid #ff2f2f;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+.inputText{
+    width: 600px;
+    height: 56px;
+    margin-left: 4px;
+    text-align: center;
+    border: none;
+    font-size: 24px;
+    color: #8a8a8a;
+    letter-spacing: 3px;
+    line-height: 30px;
+    border-right: 1px solid #e2e2e2;
+}
+.searchImg{
+    background: none;
+    border: none;
+    width: 80px;
+    height: 64px;
+    text-align: center;
+    padding-top: 10px;
+}
+.goodsName{
+    font-size: 24px;
+    color: #5a5a5a;
+}
+.goodsPrice{
+    font-size: 25px;
+    color: #ff2f2f;
+}
